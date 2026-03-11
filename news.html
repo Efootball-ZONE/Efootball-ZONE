@@ -3,119 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>eFootball News</title>
+  <title>Efootball ZONE - News</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body data-page="news">
 
-<header class="site-header">
-  <div class="container topbar">
-    <a href="index.html" class="brand">eFootball Hub</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
 
-    <div class="lang-switcher">
-      <button onclick="setLanguage('en')">EN</button>
-      <button onclick="setLanguage('ar')">AR</button>
-      <button onclick="setLanguage('fr')">FR</button>
+      <div class="lang-switcher">
+        <button type="button" onclick="setLanguage('en')">EN</button>
+        <button type="button" onclick="setLanguage('ar')">AR</button>
+        <button type="button" onclick="setLanguage('fr')">FR</button>
+      </div>
     </div>
-  </div>
 
-  <div class="container">
-    <nav class="navbar">
-      <a href="index.html" data-key="nav_home">Home</a>
-      <a href="news.html" data-key="nav_news">News</a>
-      <a href="leaks.html" data-key="nav_leaks">Leaks</a>
-      <a href="players.html" data-key="nav_players">Players</a>
-      <a href="builds.html" data-key="nav_builds">Builds</a>
-      <a href="contact.html" data-key="nav_contact">Contact</a>
-    </nav>
-  </div>
-</header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" data-key="nav_home">Home</a>
+        <a href="news.html" data-key="nav_news">News</a>
+        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
+        <a href="players.html" data-key="nav_players">Players</a>
+        <a href="builds.html" data-key="nav_builds">Builds</a>
+        <a href="contact.html" data-key="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<main class="container page-section">
+  <main class="container page-section">
+    <div class="page-header">
+      <span class="hero-badge" data-key="news_badge">Updates</span>
+      <h1 data-key="news_title">Latest News</h1>
+      <p data-key="news_desc">This page contains the latest eFootball news and updates.</p>
+    </div>
 
-<div class="page-header">
-  <span class="hero-badge" data-key="news_badge">Updates</span>
-  <h1 data-key="news_title">Latest News</h1>
-  <p data-key="news_desc">This page contains the latest eFootball news and updates.</p>
-</div>
+    <div class="article-list">
 
-<div class="article-list">
+      <article class="article-card featured-news">
+        <img
+          src="totw-march-11.jpg"
+          alt="Team of the Week players"
+          class="news-image"
+        />
 
-<!-- FEATURED MAIN NEWS -->
-<article class="article-card featured-news">
+        <div class="featured-news-content">
+          <div class="article-meta" data-key="news_article_1_date">2026/03/11</div>
 
-<img
-src="totw-march-11.jpg"
-alt="Team of the Week players"
-class="news-image"
-/>
+          <h2 data-key="news_article_1_title">
+            Official: New Team of the Week Players Tomorrow After the Maintenance
+          </h2>
 
-<div class="featured-news-content">
+          <p class="featured-short" data-key="news_article_1_short">
+            Officially, Thursday's Team of the Week stars include Yildiz with a booster, Estupinan at LMF, and Gonzalez with Super-Sub.
+          </p>
 
-<div class="article-meta" data-key="news_article_1_date">
-2026/03/11
-</div>
+          <p class="featured-full" data-key="news_article_1_full">
+            Konami has officially confirmed a new Team of the Week selection arriving tomorrow after the maintenance. The highlighted names include Yildiz with a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill. Fans are already waiting to see the full list and the final stats of the new cards.
+          </p>
+        </div>
+      </article>
 
-<h2 data-key="news_article_1_title">
-Official: New Team of the Week Players Tomorrow After the Maintenance
-</h2>
+      <article class="article-card">
+        <div class="article-meta" data-key="news_meta_2">Events</div>
+        <h2 data-key="news_item_2_title">New themed events may arrive this week</h2>
+        <p data-key="news_item_2_desc">
+          Weekly events, challenge matches, and reward campaigns remain the main focus for active players.
+        </p>
+      </article>
 
-<p class="featured-short" data-key="news_article_1_short">
-Officially, Thursday's Team of the Week stars include Yildiz with a booster,
-Estupinan at LMF, and Gonzalez with Super-Sub.
-</p>
+      <article class="article-card">
+        <div class="article-meta" data-key="news_meta_3">Players</div>
+        <h2 data-key="news_item_3_title">Featured players continue to attract fans</h2>
+        <p data-key="news_item_3_desc">
+          Special cards with boosted stats are still among the most exciting parts of every content cycle.
+        </p>
+      </article>
 
-<p class="featured-full" data-key="news_article_1_full">
-Konami has officially confirmed a new Team of the Week selection arriving
-tomorrow after the maintenance. The highlighted names include Yildiz with
-a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill.
-Fans are already waiting to see the full list and the final stats
-of the new cards.
-</p>
+    </div>
+  </main>
 
-</div>
-</article>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p data-key="footer_text">
+        Efootball ZONE - fan-made website for news, leaks, and player ideas.
+      </p>
+    </div>
+  </footer>
 
-<!-- SECOND NEWS -->
-<article class="article-card">
-<div class="article-meta" data-key="news_meta_2">Events</div>
-
-<h2 data-key="news_item_2_title">
-New themed events may arrive this week
-</h2>
-
-<p data-key="news_item_2_desc">
-Weekly events, challenge matches, and reward campaigns remain the main focus for active players.
-</p>
-</article>
-
-<!-- THIRD NEWS -->
-<article class="article-card">
-<div class="article-meta" data-key="news_meta_3">Players</div>
-
-<h2 data-key="news_item_3_title">
-Featured players continue to attract fans
-</h2>
-
-<p data-key="news_item_3_desc">
-Special cards with boosted stats are still among the most exciting parts of every content cycle.
-</p>
-</article>
-
-</div>
-
-</main>
-
-<footer class="site-footer">
-<div class="container footer-content">
-<p data-key="footer_text">
-eFootball Hub - fan-made website for news, leaks, and player ideas.
-</p>
-</div>
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
