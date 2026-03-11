@@ -4,7 +4,6 @@
 
 :root {
   --bg-main: #081224;
-  --bg-soft: #0d1a31;
   --panel: rgba(18, 31, 56, 0.9);
   --text-main: #f5f7fb;
   --text-soft: #c6d2ea;
@@ -41,9 +40,9 @@ a {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
   backdrop-filter: blur(10px);
-  background: rgba(7, 14, 29, 0.82);
+  background: rgba(7, 14, 29, 0.9);
   border-bottom: 1px solid var(--border);
 }
 
@@ -59,6 +58,20 @@ a {
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0.3px;
+}
+
+.logo-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .lang-switcher {
@@ -400,7 +413,12 @@ html[dir="rtl"] .player-top {
 
 @media (max-width: 768px) {
   .brand {
-    font-size: 1.6rem;
+    font-size: 1.35rem;
+  }
+
+  .site-logo {
+    width: 36px;
+    height: 36px;
   }
 
   .news-banner,
