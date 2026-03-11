@@ -9,14 +9,11 @@ const translations = {
 
     home_title: "Welcome to Efootball ZONE",
     home_desc: "Latest news, leaks, player builds, training tips, pictures, videos, and more.",
-
     home_banner_tag: "Latest News",
     home_banner_title: "New Team of the Week players are coming after maintenance",
     home_banner_desc: "Click here to discover the confirmed players and everything about the new Team of the Week.",
-
     home_cards_title: "Main Sections",
     home_cards_desc: "Jump quickly to the content you want.",
-
     card_news: "Latest News",
     card_news_desc: "Stay updated with the newest eFootball information.",
     card_leaks: "Leaks",
@@ -29,16 +26,13 @@ const translations = {
     news_badge: "Updates",
     news_title: "Latest News",
     news_desc: "This page contains the latest eFootball news and updates.",
-
     news_article_1_date: "2026/03/11",
     news_article_1_title: "Official: New Team of the Week Players Tomorrow After the Maintenance",
     news_article_1_short: "Officially, Thursday's Team of the Week stars include Yildiz with a booster, Estupinan at LMF, and Gonzalez with Super-Sub.",
     news_article_1_full: "Konami has officially confirmed a new Team of the Week selection arriving tomorrow after the maintenance. The highlighted names include Yildiz with a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill. Fans are already waiting to see the full list and the final stats of the new cards.",
-
     news_meta_2: "Events",
     news_item_2_title: "New themed events may arrive this week",
     news_item_2_desc: "Weekly events, challenge matches, and reward campaigns remain the main focus for active players.",
-
     news_meta_3: "Players",
     news_item_3_title: "Featured players continue to attract fans",
     news_item_3_desc: "Special cards with boosted stats are still among the most exciting parts of every content cycle.",
@@ -78,7 +72,7 @@ const translations = {
     build_midfielder_title: "Box-to-Box Midfielder",
     build_midfielder_desc: "Improve stamina, passing, ball control, and defensive work rate.",
 
-    contact_badge: "Reach Out",
+    contact_badge: "Contact",
     contact_title: "Contact",
     contact_desc: "You can place your email or social media links here later.",
     contact_name: "Name",
@@ -103,14 +97,11 @@ const translations = {
 
     home_title: "مرحبًا بك في Efootball ZONE",
     home_desc: "آخر الأخبار، التسريبات، تطويرات اللاعبين، نصائح التدريب، الصور، الفيديوهات، وأكثر.",
-
     home_banner_tag: "آخر الأخبار",
     home_banner_title: "لاعبو فريق الأسبوع الجدد قادمون بعد الصيانة",
     home_banner_desc: "اضغط هنا لاكتشاف اللاعبين المؤكدين وكل ما يتعلق بفريق الأسبوع الجديد.",
-
     home_cards_title: "الأقسام الرئيسية",
     home_cards_desc: "انتقل بسرعة إلى المحتوى الذي تريده.",
-
     card_news: "آخر الأخبار",
     card_news_desc: "ابقَ على اطلاع بأحدث معلومات eFootball.",
     card_leaks: "التسريبات",
@@ -123,16 +114,13 @@ const translations = {
     news_badge: "تحديثات",
     news_title: "آخر الأخبار",
     news_desc: "هذه الصفحة تحتوي على آخر أخبار وتحديثات eFootball.",
-
     news_article_1_date: "2026/03/11",
     news_article_1_title: "رسمي: نجوم فريق الأسبوع الجدد غدًا بعد الصيانة",
     news_article_1_short: "رسميًا، نجوم أسبوع الخميس هم يلدز مع بوستر، واستوبينيان في مركز LMF، وجونزاليز بميزة السوبر صب.",
     news_article_1_full: "أكدت كونامي رسميًا وصول تشكيلة جديدة لفريق الأسبوع غدًا بعد الصيانة. الأسماء البارزة تشمل يلدز مع بوستر، واستوبينيان في مركز LMF، وجونزاليز بمهارة السوبر صب. الجماهير الآن تنتظر رؤية اللائحة الكاملة والإحصائيات النهائية للبطاقات الجديدة.",
-
     news_meta_2: "فعاليات",
     news_item_2_title: "قد تصل فعاليات جديدة هذا الأسبوع",
     news_item_2_desc: "الفعاليات الأسبوعية والتحديات والمكافآت ما زالت من أهم ما يجذب اللاعبين.",
-
     news_meta_3: "لاعبون",
     news_item_3_title: "اللاعبون المميزون ما زالوا يجذبون الجماهير",
     news_item_3_desc: "البطاقات الخاصة ذات الإحصائيات المعززة تبقى من أكثر الأشياء إثارة.",
@@ -172,7 +160,7 @@ const translations = {
     build_midfielder_title: "وسط Box-to-Box",
     build_midfielder_desc: "حسّن اللياقة والتمرير والتحكم بالكرة والعمل الدفاعي.",
 
-    contact_badge: "تواصل",
+    contact_badge: "اتصل بنا",
     contact_title: "اتصل بنا",
     contact_desc: "يمكنك وضع بريدك الإلكتروني أو روابط مواقع التواصل هنا لاحقًا.",
     contact_name: "الاسم",
@@ -197,14 +185,11 @@ const translations = {
 
     home_title: "Bienvenue sur Efootball ZONE",
     home_desc: "Dernières actualités, leaks, builds de joueurs, conseils d'entraînement, images, vidéos et plus.",
-
     home_banner_tag: "Dernière actualité",
     home_banner_title: "De nouveaux joueurs Team of the Week arrivent après la maintenance",
     home_banner_desc: "Cliquez ici pour découvrir les joueurs confirmés et tout sur la nouvelle Team of the Week.",
-
     home_cards_title: "Sections principales",
     home_cards_desc: "Accédez rapidement au contenu que vous voulez.",
-
     card_news: "Dernières actualités",
     card_news_desc: "Restez à jour avec les dernières informations sur eFootball.",
     card_leaks: "Leaks",
@@ -217,16 +202,13 @@ const translations = {
     news_badge: "Mises à jour",
     news_title: "Dernières actualités",
     news_desc: "Cette page contient les dernières actualités et mises à jour eFootball.",
-
     news_article_1_date: "2026/03/11",
     news_article_1_title: "Officiel : nouveaux joueurs Team of the Week demain après la maintenance",
     news_article_1_short: "Officiellement, les stars du Team of the Week de jeudi incluent Yildiz avec un booster, Estupinan en LMF et Gonzalez avec Super-Sub.",
     news_article_1_full: "Konami a officiellement confirmé l'arrivée d'une nouvelle sélection Team of the Week demain après la maintenance. Les noms mis en avant incluent Yildiz avec un booster, Estupinan au poste de LMF et Gonzalez avec la compétence Super-Sub. Les fans attendent maintenant la liste complète ainsi que les statistiques finales des nouvelles cartes.",
-
     news_meta_2: "Événements",
     news_item_2_title: "De nouveaux événements pourraient arriver cette semaine",
     news_item_2_desc: "Les événements hebdomadaires, défis et récompenses restent essentiels pour les joueurs actifs.",
-
     news_meta_3: "Joueurs",
     news_item_3_title: "Les joueurs vedettes attirent toujours les fans",
     news_item_3_desc: "Les cartes spéciales avec statistiques améliorées restent très appréciées.",
@@ -327,7 +309,6 @@ function highlightActiveNav() {
 
   navLinks.forEach((link) => {
     const href = link.getAttribute("href");
-
     if (
       (page === "home" && href === "index.html") ||
       (page === "news" && href === "news.html") ||
