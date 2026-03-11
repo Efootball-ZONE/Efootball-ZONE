@@ -7,11 +7,8 @@ const translations = {
     nav_builds: "Builds",
     nav_contact: "Contact",
 
-    home_badge: "Unofficial eFootball Fan Hub",
     home_title: "Welcome to Efootball ZONE",
     home_desc: "Latest news, leaks, player builds, training tips, pictures, videos, and more.",
-    home_btn_news: "Explore News",
-    home_btn_players: "View Players",
 
     home_banner_tag: "Latest News",
     home_banner_title: "New Team of the Week players are coming after maintenance",
@@ -104,11 +101,8 @@ const translations = {
     nav_builds: "التطويرات",
     nav_contact: "اتصل بنا",
 
-    home_badge: "موقع جماهيري غير رسمي لـ eFootball",
     home_title: "مرحبًا بك في Efootball ZONE",
     home_desc: "آخر الأخبار، التسريبات، تطويرات اللاعبين، نصائح التدريب، الصور، الفيديوهات، وأكثر.",
-    home_btn_news: "استكشف الأخبار",
-    home_btn_players: "عرض اللاعبين",
 
     home_banner_tag: "آخر الأخبار",
     home_banner_title: "لاعبو فريق الأسبوع الجدد قادمون بعد الصيانة",
@@ -201,11 +195,8 @@ const translations = {
     nav_builds: "Builds",
     nav_contact: "Contact",
 
-    home_badge: "Site fan non officiel eFootball",
     home_title: "Bienvenue sur Efootball ZONE",
     home_desc: "Dernières actualités, leaks, builds de joueurs, conseils d'entraînement, images, vidéos et plus.",
-    home_btn_news: "Voir les actualités",
-    home_btn_players: "Voir les joueurs",
 
     home_banner_tag: "Dernière actualité",
     home_banner_title: "De nouveaux joueurs Team of the Week arrivent après la maintenance",
