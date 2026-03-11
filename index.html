@@ -1,170 +1,114 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Efootball ZONE</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efootball ZONE</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body data-page="home">
 
-<header class="site-header">
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
 
-<div class="container topbar">
+      <div class="lang-switcher">
+        <button type="button" onclick="setLanguage('en')">EN</button>
+        <button type="button" onclick="setLanguage('ar')">AR</button>
+        <button type="button" onclick="setLanguage('fr')">FR</button>
+      </div>
+    </div>
 
-<a href="index.html" class="brand">
-Efootball ZONE
-</a>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" data-key="nav_home">Home</a>
+        <a href="news.html" data-key="nav_news">News</a>
+        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
+        <a href="players.html" data-key="nav_players">Players</a>
+        <a href="builds.html" data-key="nav_builds">Builds</a>
+        <a href="contact.html" data-key="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<div class="lang-switcher">
-<button onclick="setLanguage('en')">EN</button>
-<button onclick="setLanguage('ar')">AR</button>
-<button onclick="setLanguage('fr')">FR</button>
-</div>
+  <main class="container page-section">
 
-</div>
+    <section class="hero">
+      <span class="hero-badge" data-key="home_badge">Unofficial eFootball Fan Hub</span>
 
-<div class="container">
+      <h1 data-key="home_title">Welcome to Efootball ZONE</h1>
 
-<nav class="navbar">
+      <p data-key="home_desc">
+        Latest news, leaks, player builds, training tips, pictures, videos, and more.
+      </p>
 
-<a href="index.html" data-key="nav_home">Home</a>
-<a href="news.html" data-key="nav_news">News</a>
-<a href="leaks.html" data-key="nav_leaks">Leaks</a>
-<a href="players.html" data-key="nav_players">Players</a>
-<a href="builds.html" data-key="nav_builds">Builds</a>
-<a href="contact.html" data-key="nav_contact">Contact</a>
+      <div class="hero-buttons">
+        <a href="news.html" class="btn primary" data-key="home_btn_news">Explore News</a>
+        <a href="players.html" class="btn secondary" data-key="home_btn_players">View Players</a>
+      </div>
+    </section>
 
-</nav>
+    <section class="section">
+      <a href="news.html" class="news-banner">
+        <img
+          src="home-latest-news.jpg"
+          alt="Latest eFootball news"
+          class="news-banner-image"
+        />
 
-</div>
+        <div class="news-banner-overlay">
+          <span class="news-banner-tag" data-key="home_banner_tag">Latest News</span>
 
-</header>
+          <h2 data-key="home_banner_title">
+            New Team of the Week players are coming after maintenance
+          </h2>
 
+          <p data-key="home_banner_desc">
+            Click here to discover the confirmed players and everything about the new Team of the Week.
+          </p>
+        </div>
+      </a>
+    </section>
 
-<main class="container page-section">
+    <section class="section">
+      <div class="section-head">
+        <h2 data-key="home_cards_title">Main Sections</h2>
+        <p data-key="home_cards_desc">Jump quickly to the content you want.</p>
+      </div>
 
+      <div class="info-grid">
+        <a href="news.html" class="info-box">
+          <h3 data-key="card_news">Latest News</h3>
+          <p data-key="card_news_desc">Stay updated with the newest eFootball information.</p>
+        </a>
 
-<section class="hero">
+        <a href="leaks.html" class="info-box">
+          <h3 data-key="card_leaks">Leaks</h3>
+          <p data-key="card_leaks_desc">Find rumors, upcoming content and possible new updates.</p>
+        </a>
 
-<span class="hero-badge" data-key="home_badge">
-Unofficial eFootball Fan Hub
-</span>
+        <a href="players.html" class="info-box">
+          <h3 data-key="card_players">Players</h3>
+          <p data-key="card_players_desc">Explore players and discover useful information.</p>
+        </a>
 
-<h1 data-key="home_title">
-Welcome to Efootball ZONE
-</h1>
+        <a href="builds.html" class="info-box">
+          <h3 data-key="card_builds">Player Builds</h3>
+          <p data-key="card_builds_desc">Discover training ideas and player development tips.</p>
+        </a>
+      </div>
+    </section>
 
-<p data-key="home_desc">
-Latest news, leaks, player builds, training tips, pictures, videos, and more.
-</p>
+  </main>
 
-<div class="hero-buttons">
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p data-key="footer_text">
+        Efootball ZONE - fan-made website for news, leaks, and player ideas.
+      </p>
+    </div>
+  </footer>
 
-<a href="news.html" class="btn primary" data-key="home_btn_news">
-Explore News
-</a>
-
-<a href="players.html" class="btn secondary" data-key="home_btn_players">
-View Players
-</a>
-
-</div>
-
-</section>
-
-
-<!-- BIG NEWS BANNER -->
-
-<section class="container section">
-
-<a href="news.html" class="news-banner">
-
-<img
-src="home-latest-news.jpg"
-alt="Latest eFootball news"
-class="news-banner-image"
-/>
-
-<div class="news-banner-overlay">
-
-<span class="news-banner-tag" data-key="home_banner_tag">
-Latest News
-</span>
-
-<h2 data-key="home_banner_title">
-New Team of the Week players are coming after maintenance
-</h2>
-
-<p data-key="home_banner_desc">
-Click here to discover the confirmed players and everything about the new Team of the Week.
-</p>
-
-</div>
-
-</a>
-
-</section>
-
-
-<section class="container section">
-
-<div class="section-head">
-
-<h2 data-key="home_cards_title">
-Main Sections
-</h2>
-
-<p data-key="home_cards_desc">
-Jump quickly to the content you want.
-</p>
-
-</div>
-
-<div class="info-grid">
-
-<a href="news.html" class="info-box">
-<h3 data-key="card_news">Latest News</h3>
-<p data-key="card_news_desc">Stay updated with the newest eFootball information.</p>
-</a>
-
-<a href="leaks.html" class="info-box">
-<h3 data-key="card_leaks">Leaks</h3>
-<p data-key="card_leaks_desc">Find rumors, upcoming content and possible new updates.</p>
-</a>
-
-<a href="players.html" class="info-box">
-<h3 data-key="card_players">Players</h3>
-<p data-key="card_players_desc">Explore players and discover useful information.</p>
-</a>
-
-<a href="builds.html" class="info-box">
-<h3 data-key="card_builds">Player Builds</h3>
-<p data-key="card_builds_desc">Discover training ideas and player development tips.</p>
-</a>
-
-</div>
-
-</section>
-
-</main>
-
-
-<footer class="site-footer">
-
-<div class="container footer-content">
-
-<p data-key="footer_text">
-Efootball ZONE - fan-made website for news, leaks, and player ideas.
-</p>
-
-</div>
-
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
