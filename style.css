@@ -447,3 +447,24 @@ html[dir="rtl"] .player-top {
 .article-meta {
   margin-top: 0;
 }
+.featured-news {
+overflow: hidden;
+padding: 0;
+}
+
+.featured-news .news-image{
+width:100%;
+max-height:500px;
+object-fit:cover;
+display:block;
+border-radius:24px 24px 0 0;
+}
+
+.featured-news-content{
+padding:25px;
+}
+
+.featured-short{
+font-weight:bold;
+margin-bottom:15px;
+}
