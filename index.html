@@ -38,7 +38,6 @@
   </header>
 
   <main class="container page-section">
-
     <section class="hero">
       <h1 data-key="home_title">Welcome to Efootball ZONE</h1>
       <p data-key="home_desc">
@@ -52,13 +51,14 @@
         <p data-key="slider_desc">Swipe through the newest updates from Efootball ZONE.</p>
       </div>
 
-      <div class="news-slider">
+      <div class="news-slider" id="newsSlider">
         <button class="slider-btn prev" type="button" onclick="changeSlide(-1)">‹</button>
 
         <div class="slider-track">
+
           <a href="news.html#news1" class="slide active">
             <img src="epic_showtimefull.jpg" alt="Epic Show Time Pack" class="slide-image" />
-            <div class="slide-overlay">
+            <div class="slide-content">
               <span class="news-banner-tag" data-key="slide_1_tag">New Pack</span>
               <h2 data-key="slide_1_title">Here's the new Epic / Show Time Pack!</h2>
               <p data-key="slide_1_desc">Rummenigge, Matthaus, Julian Alvarez and Enzo headline the new pack.</p>
@@ -67,7 +67,7 @@
 
           <a href="news.html#news2" class="slide">
             <img src="totwfull.jpg" alt="Team of the Week Pack" class="slide-image" />
-            <div class="slide-overlay">
+            <div class="slide-content">
               <span class="news-banner-tag" data-key="slide_2_tag">Team of the Week</span>
               <h2 data-key="slide_2_title">Here's the full Team of the Week pack!</h2>
               <p data-key="slide_2_desc">The pack includes Pedri, Marmoush and Yildiz.</p>
@@ -76,7 +76,7 @@
 
           <a href="news.html#news3" class="slide">
             <img src="manager.jpg" alt="New manager" class="slide-image" />
-            <div class="slide-overlay">
+            <div class="slide-content">
               <span class="news-banner-tag" data-key="slide_3_tag">Manager</span>
               <h2 data-key="slide_3_title">A new Link Up manager is here!</h2>
               <p data-key="slide_3_desc">Franz Beckenbauer 1990 arrives with two styles and Link Up.</p>
@@ -85,7 +85,7 @@
 
           <a href="news.html#news4" class="slide">
             <img src="champion.jpg" alt="Championship campaign" class="slide-image" />
-            <div class="slide-overlay">
+            <div class="slide-content">
               <span class="news-banner-tag" data-key="slide_4_tag">Campaign</span>
               <h2 data-key="slide_4_title">eFootball Championship 2026 Open Present Campaign</h2>
               <p data-key="slide_4_desc">Celebrate the championship with 3,000 eFootball Points.</p>
@@ -94,7 +94,7 @@
 
           <a href="news.html#news5" class="slide">
             <img src="event.jpg" alt="New event" class="slide-image" />
-            <div class="slide-overlay">
+            <div class="slide-content">
               <span class="news-banner-tag" data-key="slide_5_tag">Event</span>
               <h2 data-key="slide_5_title">A new event is here!</h2>
               <p data-key="slide_5_desc">National Teams Campaign and Campaign Center arrive in the game.</p>
@@ -103,12 +103,13 @@
 
           <a href="news.html#news6" class="slide">
             <img src="monday.jpg" alt="Monday pack" class="slide-image" />
-            <div class="slide-overlay">
+            <div class="slide-content">
               <span class="news-banner-tag" data-key="slide_6_tag">Monday Pack</span>
               <h2 data-key="slide_6_title">Monday pack!</h2>
               <p data-key="slide_6_desc">Albertini, Platini and Donadoni arrive in the new Monday pack.</p>
             </div>
           </a>
+
         </div>
 
         <button class="slider-btn next" type="button" onclick="changeSlide(1)">›</button>
@@ -152,7 +153,6 @@
         </a>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
