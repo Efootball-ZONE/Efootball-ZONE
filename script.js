@@ -54,6 +54,11 @@ const translations = {
     news_title: "Latest News",
     news_desc: "This page contains the latest eFootball news and updates.",
 
+    oldnews_date: "2026/03/11",
+    oldnews_title: "Official: New Team of the Week Players Tomorrow After the Maintenance",
+    oldnews_short: "Officially, Thursday's Team of the Week stars include Yildiz with a booster, Estupinan at LMF, and Gonzalez with Super-Sub.",
+    oldnews_full: "Konami has officially confirmed a new Team of the Week selection arriving tomorrow after the maintenance. The highlighted names include Yildiz with a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill. Fans are already waiting to see the full list and the final stats of the new cards.",
+
     news1_date: "2026/03/12",
     news1_title: "Here's the new Epic / Show Time Pack!",
     news1_short: "Breakthrough Pass B new Link Up!",
@@ -85,53 +90,6 @@ const translations = {
     news6_full: "Platini comes with Momentum Dribbling and Phenomenal Pass, Albertini with Phenomenal Pass, and Donadoni with Visionary Pass and Momentum Dribbling.",
 
     video_section_title: "Pack Video",
-
-    leaks_badge: "Rumors",
-    leaks_title: "Leaks",
-    leaks_desc: "This page contains eFootball leaks, rumors, and possible hidden content.",
-    leak_item_1_title: "Possible upcoming special cards",
-    leak_item_1_desc: "Fans are expecting club stars, legends, or event-exclusive cards in future packs.",
-    leak_item_2_title: "Event reward speculation",
-    leak_item_2_desc: "Campaign rewards may include coins, trainers, contracts, or player items.",
-    leak_item_3_title: "New visual themes",
-    leak_item_3_desc: "Some players hope for refreshed menus, banners, and event branding.",
-    leak_item_4_title: "Possible feature changes",
-    leak_item_4_desc: "There is always discussion about gameplay balancing and quality-of-life improvements.",
-
-    players_badge: "Stars",
-    players_title: "Players",
-    players_desc: "This page contains player information, ratings, and simple analysis.",
-    players_search_placeholder: "Search players...",
-    player_messi_role: "Creative forward with elite dribbling and passing.",
-    player_mbappe_role: "Explosive attacker with top speed and finishing.",
-    player_neymar_role: "Skillful winger with flair, balance, and creativity.",
-    player_kdb_role: "Smart playmaker with passing range and shooting quality.",
-    player_haaland_role: "Powerful striker with dangerous movement and finishing.",
-    player_bellingham_role: "Dynamic midfielder with energy, control, and versatility.",
-
-    builds_badge: "Training",
-    builds_title: "Player Builds",
-    builds_desc: "This page contains training builds, progression ideas, and useful tips.",
-    build_messi_title: "Messi Build",
-    build_messi_desc: "Focus on dribbling, low passing, curl, and close control.",
-    build_mbappe_title: "Mbappe Build",
-    build_mbappe_desc: "Boost acceleration, finishing, speed, and offensive awareness.",
-    build_neymar_title: "Neymar Build",
-    build_neymar_desc: "Prioritize balance, dribbling, flair, and tight possession.",
-    build_midfielder_title: "Box-to-Box Midfielder",
-    build_midfielder_desc: "Improve stamina, passing, ball control, and defensive work rate.",
-
-    contact_badge: "Contact",
-    contact_title: "Contact",
-    contact_desc: "You can place your email or social media links here later.",
-    contact_name: "Name",
-    contact_email: "Email",
-    contact_message: "Message",
-    contact_send: "Send",
-    contact_name_placeholder: "Your name",
-    contact_email_placeholder: "Your email",
-    contact_message_placeholder: "Write your message",
-    contact_success: "Your message has been recorded on this demo page.",
 
     footer_text: "Efootball ZONE - fan-made website for news, leaks, and player ideas."
   },
@@ -191,6 +149,11 @@ const translations = {
     news_title: "آخر الأخبار",
     news_desc: "هذه الصفحة تحتوي على آخر أخبار وتحديثات eFootball.",
 
+    oldnews_date: "2026/03/11",
+    oldnews_title: "رسمي: نجوم فريق الأسبوع الجدد غدًا بعد الصيانة",
+    oldnews_short: "رسميًا، نجوم أسبوع الخميس هم يلدز مع بوستر، واستوبينيان في مركز LMF، وجونزاليز بميزة السوبر صب.",
+    oldnews_full: "أكدت كونامي رسميًا وصول تشكيلة جديدة لفريق الأسبوع غدًا بعد الصيانة. الأسماء البارزة تشمل يلدز مع بوستر، واستوبينيان في مركز LMF، وجونزاليز بمهارة السوبر صب. الجماهير الآن تنتظر رؤية اللائحة الكاملة والإحصائيات النهائية للبطاقات الجديدة.",
+
     news1_date: "2026/03/12",
     news1_title: "إليك باكج Epic / Show Time الجديد!",
     news1_short: "Breakthrough Pass B مع Link Up جديد!",
@@ -222,53 +185,6 @@ const translations = {
     news6_full: "بلاتيني يأتي بمهارتي Momentum Dribbling و Phenomenal Pass، وألبرتيني بمهارة Phenomenal Pass، ودونادوني بمهارتي Visionary Pass و Momentum Dribbling.",
 
     video_section_title: "فيديو الباكج",
-
-    leaks_badge: "إشاعات",
-    leaks_title: "التسريبات",
-    leaks_desc: "هذه الصفحة تحتوي على تسريبات eFootball والإشاعات والمحتوى المحتمل.",
-    leak_item_1_title: "بطاقات خاصة قادمة محتملة",
-    leak_item_1_desc: "يتوقع اللاعبون ظهور نجوم أندية أو أساطير أو بطاقات حصرية في باكجات قادمة.",
-    leak_item_2_title: "توقعات مكافآت الفعاليات",
-    leak_item_2_desc: "قد تشمل مكافآت الحملات عملات ومدربين وعقودًا وعناصر خاصة.",
-    leak_item_3_title: "تصاميم بصرية جديدة",
-    leak_item_3_desc: "بعض اللاعبين يتمنون قوائم وشعارات وأشكال أحداث جديدة.",
-    leak_item_4_title: "تغييرات محتملة في المزايا",
-    leak_item_4_desc: "هناك دائمًا نقاش حول توازن أسلوب اللعب وتحسينات جودة التجربة.",
-
-    players_badge: "النجوم",
-    players_title: "اللاعبون",
-    players_desc: "هذه الصفحة تحتوي على معلومات اللاعبين وتقييماتهم وتحليلًا بسيطًا.",
-    players_search_placeholder: "ابحث عن لاعب...",
-    player_messi_role: "مهاجم مبدع بمراوغة وتمرير من الطراز العالي.",
-    player_mbappe_role: "مهاجم انفجاري بسرعة كبيرة وإنهاء ممتاز.",
-    player_neymar_role: "جناح مهاري بلمسة فنية وتوازن وإبداع.",
-    player_kdb_role: "صانع لعب ذكي بتمريرات مميزة وتسديد قوي.",
-    player_haaland_role: "مهاجم قوي بحركة خطيرة وإنهاء ممتاز.",
-    player_bellingham_role: "لاعب وسط ديناميكي بطاقة كبيرة وتحكم وتنوع.",
-
-    builds_badge: "تدريب",
-    builds_title: "تطويرات اللاعبين",
-    builds_desc: "هذه الصفحة تحتوي على خطط تدريب وأفكار تطور ونصائح مفيدة.",
-    build_messi_title: "تطوير ميسي",
-    build_messi_desc: "ركّز على المراوغة والتمرير الأرضي والكرات المقوسة والتحكم القريب.",
-    build_mbappe_title: "تطوير مبابي",
-    build_mbappe_desc: "ارفع التسارع والإنهاء والسرعة والتمركز الهجومي.",
-    build_neymar_title: "تطوير نيمار",
-    build_neymar_desc: "أعطِ الأولوية للتوازن والمراوغة والمهارة والتحكم الضيق.",
-    build_midfielder_title: "وسط Box-to-Box",
-    build_midfielder_desc: "حسّن اللياقة والتمرير والتحكم بالكرة والعمل الدفاعي.",
-
-    contact_badge: "اتصل بنا",
-    contact_title: "اتصل بنا",
-    contact_desc: "يمكنك وضع بريدك الإلكتروني أو روابط مواقع التواصل هنا لاحقًا.",
-    contact_name: "الاسم",
-    contact_email: "البريد الإلكتروني",
-    contact_message: "الرسالة",
-    contact_send: "إرسال",
-    contact_name_placeholder: "اسمك",
-    contact_email_placeholder: "بريدك الإلكتروني",
-    contact_message_placeholder: "اكتب رسالتك",
-    contact_success: "تم تسجيل رسالتك في هذه الصفحة التجريبية.",
 
     footer_text: "Efootball ZONE - موقع جماهيري للأخبار والتسريبات وأفكار تطوير اللاعبين."
   },
@@ -328,6 +244,11 @@ const translations = {
     news_title: "Dernières actualités",
     news_desc: "Cette page contient les dernières actualités et mises à jour eFootball.",
 
+    oldnews_date: "2026/03/11",
+    oldnews_title: "Officiel : nouveaux joueurs Team of the Week demain après la maintenance",
+    oldnews_short: "Officiellement, les stars du Team of the Week de jeudi incluent Yildiz avec un booster, Estupinan en LMF et Gonzalez avec Super-Sub.",
+    oldnews_full: "Konami a officiellement confirmé l'arrivée d'une nouvelle sélection Team of the Week demain après la maintenance. Les noms mis en avant incluent Yildiz avec un booster, Estupinan au poste de LMF et Gonzalez avec la compétence Super-Sub. Les fans attendent maintenant la liste complète ainsi que les statistiques finales des nouvelles cartes.",
+
     news1_date: "2026/03/12",
     news1_title: "Voici le nouveau pack Epic / Show Time !",
     news1_short: "Breakthrough Pass B avec un nouveau Link Up !",
@@ -360,59 +281,14 @@ const translations = {
 
     video_section_title: "Vidéo du pack",
 
-    leaks_badge: "Rumeurs",
-    leaks_title: "Leaks",
-    leaks_desc: "Cette page contient des leaks, rumeurs et contenus possibles de eFootball.",
-    leak_item_1_title: "Possibles cartes spéciales à venir",
-    leak_item_1_desc: "Les fans attendent peut-être des stars de clubs, des légendes ou des cartes exclusives.",
-    leak_item_2_title: "Spéculation sur les récompenses d'événements",
-    leak_item_2_desc: "Les campagnes peuvent proposer pièces, entraîneurs, contrats ou objets joueurs.",
-    leak_item_3_title: "Nouveaux thèmes visuels",
-    leak_item_3_desc: "Certains joueurs espèrent des menus, bannières et visuels d'événements renouvelés.",
-    leak_item_4_title: "Possibles changements de fonctionnalités",
-    leak_item_4_desc: "Il y a toujours des discussions sur l'équilibrage et les améliorations de confort.",
-
-    players_badge: "Stars",
-    players_title: "Joueurs",
-    players_desc: "Cette page contient des informations sur les joueurs, leurs notes et une analyse simple.",
-    players_search_placeholder: "Rechercher un joueur...",
-    player_messi_role: "Attaquant créatif avec dribble et passe d'élite.",
-    player_mbappe_role: "Attaquant explosif avec grande vitesse et finition.",
-    player_neymar_role: "Ailier technique avec style, équilibre et créativité.",
-    player_kdb_role: "Meneur intelligent avec une grande qualité de passe et de tir.",
-    player_haaland_role: "Buteur puissant avec des déplacements dangereux et une grosse finition.",
-    player_bellingham_role: "Milieu dynamique avec énergie, contrôle et polyvalence.",
-
-    builds_badge: "Entraînement",
-    builds_title: "Builds joueurs",
-    builds_desc: "Cette page contient des builds d'entraînement, des idées de progression et des conseils utiles.",
-    build_messi_title: "Build Messi",
-    build_messi_desc: "Travaillez le dribble, la passe au sol, l'effet et le contrôle rapproché.",
-    build_mbappe_title: "Build Mbappe",
-    build_mbappe_desc: "Améliorez l'accélération, la finition, la vitesse et le sens offensif.",
-    build_neymar_title: "Build Neymar",
-    build_neymar_desc: "Donnez la priorité à l'équilibre, au dribble, au style et au contrôle serré.",
-    build_midfielder_title: "Milieu Box-to-Box",
-    build_midfielder_desc: "Améliorez l'endurance, la passe, le contrôle de balle et le travail défensif.",
-
-    contact_badge: "Contact",
-    contact_title: "Contact",
-    contact_desc: "Vous pourrez ajouter ici votre e-mail ou vos liens vers les réseaux sociaux plus tard.",
-    contact_name: "Nom",
-    contact_email: "E-mail",
-    contact_message: "Message",
-    contact_send: "Envoyer",
-    contact_name_placeholder: "Votre nom",
-    contact_email_placeholder: "Votre e-mail",
-    contact_message_placeholder: "Écrivez votre message",
-    contact_success: "Votre message a été enregistré sur cette page de démonstration.",
-
     footer_text: "Efootball ZONE - site fan pour actualités, leaks et idées de builds joueurs."
   }
 };
 
 let currentSlide = 0;
 let sliderInterval = null;
+let touchStartX = 0;
+let touchEndX = 0;
 
 function applyTranslations(lang) {
   document.querySelectorAll("[data-key]").forEach((element) => {
@@ -530,16 +406,47 @@ function goToSlide(index) {
 
 function changeSlide(step) {
   goToSlide(currentSlide + step);
+  restartSlider();
 }
 
 function startSlider() {
   const slides = document.querySelectorAll(".slide");
   if (slides.length < 2) return;
 
-  if (sliderInterval) clearInterval(sliderInterval);
+  clearInterval(sliderInterval);
   sliderInterval = setInterval(() => {
-    changeSlide(1);
+    goToSlide(currentSlide + 1);
   }, 5000);
+}
+
+function restartSlider() {
+  startSlider();
+}
+
+function setupTouchSlider() {
+  const slider = document.getElementById("newsSlider");
+  if (!slider) return;
+
+  slider.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  slider.addEventListener("touchend", (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+}
+
+function handleSwipe() {
+  const diff = touchStartX - touchEndX;
+
+  if (Math.abs(diff) < 40) return;
+
+  if (diff > 0) {
+    changeSlide(1);
+  } else {
+    changeSlide(-1);
+  }
 }
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -548,6 +455,7 @@ window.addEventListener("DOMContentLoaded", () => {
   highlightActiveNav();
   goToSlide(0);
   startSlider();
+  setupTouchSlider();
   closeMenuOnDesktop();
 });
 
