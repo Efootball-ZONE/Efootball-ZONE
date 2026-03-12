@@ -4,26 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Efootball ZONE - News</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-page="news">
 
   <header class="site-header">
     <div class="container topbar">
-      <a href="index.html" class="brand logo-brand">
-        <img src="logo.png" alt="Efootball ZONE logo" class="site-logo" />
-        <span>Efootball ZONE</span>
-      </a>
+      <a href="index.html" class="brand">Efootball ZONE</a>
 
-      <div class="lang-switcher">
-        <button type="button" onclick="setLanguage('en')">EN</button>
-        <button type="button" onclick="setLanguage('ar')">AR</button>
-        <button type="button" onclick="setLanguage('fr')">FR</button>
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
+
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
+          Menu
+        </button>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container nav-wrapper" id="mobileNav">
       <nav class="navbar">
         <a href="index.html" data-key="nav_home">Home</a>
         <a href="news.html" data-key="nav_news">News</a>
@@ -44,39 +46,75 @@
 
     <div class="article-list">
 
-      <article class="article-card featured-news">
-        <img src="totw-march-11.jpg" alt="Team of the Week players" class="news-image" />
-
+      <article class="article-card featured-news" id="news1">
+        <img src="epic/showtimefull.jpg" alt="Epic Show Time Pack" class="news-image" />
         <div class="featured-news-content">
-          <div class="article-meta" data-key="news_article_1_date">2026/03/11</div>
-
-          <h2 data-key="news_article_1_title">
-            Official: New Team of the Week Players Tomorrow After the Maintenance
-          </h2>
-
-          <p class="featured-short" data-key="news_article_1_short">
-            Officially, Thursday's Team of the Week stars include Yildiz with a booster, Estupinan at LMF, and Gonzalez with Super-Sub.
+          <div class="article-meta" data-key="news1_date">2026/03/12</div>
+          <h2 data-key="news1_title">Here's the new Epic / Show Time Pack!</h2>
+          <p class="featured-short" data-key="news1_short">Breakthrough Pass B new Link Up!</p>
+          <p class="featured-full" data-key="news1_full">
+            Heinz Rummenigge with Phenomenal Finishing and Blitz Curler, Lothar Matthaus with Fortress and Phenomenal Pass, Julian Alvarez with Acceleration Burst and Low Screamer, and Enzo Fernandez with the Phenomenal Pass skill.
           </p>
 
-          <p class="featured-full" data-key="news_article_1_full">
-            Konami has officially confirmed a new Team of the Week selection arriving tomorrow after the maintenance. The highlighted names include Yildiz with a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill. Fans are already waiting to see the full list and the final stats of the new cards.
-          </p>
+          <div class="video-block">
+            <h3 data-key="video_section_title">Pack Video</h3>
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube.com/embed/drkieGcB2Ss"
+                title="Epic Show Time Pack Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
         </div>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta" data-key="news_meta_2">Events</div>
-        <h2 data-key="news_item_2_title">New themed events may arrive this week</h2>
-        <p data-key="news_item_2_desc">
-          Weekly events, challenge matches, and reward campaigns remain the main focus for active players.
+      <article class="article-card" id="news2">
+        <img src="totwfull.jpg" alt="Team of the Week Pack" class="news-image" />
+        <div class="article-meta" data-key="news2_date">2026/03/12</div>
+        <h2 data-key="news2_title">Here's the full Team of the Week pack!</h2>
+        <p data-key="news2_short">This pack includes Pedri, Marmoush and Yildiz.</p>
+        <p data-key="news2_full">Here's the full list!</p>
+      </article>
+
+      <article class="article-card" id="news3">
+        <img src="manager.jpg" alt="New manager" class="news-image" />
+        <div class="article-meta" data-key="news3_date">2026/03/12</div>
+        <h2 data-key="news3_title">A new Link Up manager is here!</h2>
+        <p data-key="news3_short">F. Beckenbauer 1990.</p>
+        <p data-key="news3_full">
+          Franz Beckenbauer is a new manager with two styles: Long Ball Counter 89 and Long Ball 89 with the Breakthrough Pass B Link Up.
         </p>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta" data-key="news_meta_3">Players</div>
-        <h2 data-key="news_item_3_title">Featured players continue to attract fans</h2>
-        <p data-key="news_item_3_desc">
-          Special cards with boosted stats are still among the most exciting parts of every content cycle.
+      <article class="article-card" id="news4">
+        <img src="champion.jpg" alt="Championship campaign" class="news-image" />
+        <div class="article-meta" data-key="news4_date">2026/03/12</div>
+        <h2 data-key="news4_title">eFootball Championship 2026 Open Present Campaign</h2>
+        <p data-key="news4_short">Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points!</p>
+        <p data-key="news4_full">
+          Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points. Make the most out of the eFootball Point Shop by exchanging Points for players and training items. Exp. Tokens are discounted from 12/03/2026 to 26/03/2026 01:59 UTC. Exp. 100 Token: 125 → 25, Exp. 1,000 Token: 1,250 → 250, Exp. 4,000 Token: 5,000 → 1,000.
+        </p>
+      </article>
+
+      <article class="article-card" id="news5">
+        <img src="event.jpg" alt="New event" class="news-image" />
+        <div class="article-meta" data-key="news5_date">2026/03/12</div>
+        <h2 data-key="news5_title">A new event is here!</h2>
+        <p data-key="news5_short">National Teams Campaign.</p>
+        <p data-key="news5_full">
+          A new Campaign Center feature is now in the game. The campaign runs from March 12 to April 2, 2026. Earned points can be exchanged for Blue and Red packs, each containing 3 items weekly. Dani Olmo comes with Phenomenal Pass, and Mac Allister comes with Visionary Pass.
+        </p>
+      </article>
+
+      <article class="article-card" id="news6">
+        <img src="monday.jpg" alt="Monday pack" class="news-image" />
+        <div class="article-meta" data-key="news6_date">2026/03/12</div>
+        <h2 data-key="news6_title">Monday pack!</h2>
+        <p data-key="news6_short">Demetrio Albertini, Michel Platini, Roberto Donadoni.</p>
+        <p data-key="news6_full">
+          Platini comes with Momentum Dribbling and Phenomenal Pass, Albertini with Phenomenal Pass, and Donadoni with Visionary Pass and Momentum Dribbling.
         </p>
       </article>
 
