@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3DHPNZBG6X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3DHPNZBG6X');
-</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Efootball ZONE</title>
@@ -54,6 +45,13 @@
       </p>
     </section>
 
+    <section class="builds-popup-banner">
+      <a href="builds.html" class="builds-popup-link">
+        <span class="builds-popup-dot"></span>
+        <span data-key="home_builds_alert">New builds are now available in the Builds section.</span>
+      </a>
+    </section>
+
     <section class="section">
       <div class="section-head">
         <h2 data-key="slider_title">Latest Headlines</h2>
@@ -64,7 +62,6 @@
         <button class="slider-btn prev" type="button" onclick="changeSlide(-1)">‹</button>
 
         <div class="slider-track">
-
           <a href="news.html#news1" class="slide active">
             <img src="epic_showtimefull.jpg" alt="Epic Show Time Pack" class="slide-image" />
             <div class="slide-content">
@@ -118,7 +115,6 @@
               <p data-key="slide_6_desc">Albertini, Platini and Donadoni arrive in the new Monday pack.</p>
             </div>
           </a>
-
         </div>
 
         <button class="slider-btn next" type="button" onclick="changeSlide(1)">›</button>
@@ -131,35 +127,6 @@
         <button class="dot" type="button" onclick="goToSlide(3)"></button>
         <button class="dot" type="button" onclick="goToSlide(4)"></button>
         <button class="dot" type="button" onclick="goToSlide(5)"></button>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <h2 data-key="home_cards_title">Main Sections</h2>
-        <p data-key="home_cards_desc">Jump quickly to the content you want.</p>
-      </div>
-
-      <div class="info-grid">
-        <a href="news.html" class="info-box">
-          <h3 data-key="card_news">Latest News</h3>
-          <p data-key="card_news_desc">Stay updated with the newest eFootball information.</p>
-        </a>
-
-        <a href="leaks.html" class="info-box">
-          <h3 data-key="card_leaks">Leaks</h3>
-          <p data-key="card_leaks_desc">Find rumors, upcoming content and possible new updates.</p>
-        </a>
-
-        <a href="players.html" class="info-box">
-          <h3 data-key="card_players">Players</h3>
-          <p data-key="card_players_desc">Explore players and discover useful information.</p>
-        </a>
-
-        <a href="builds.html" class="info-box">
-          <h3 data-key="card_builds">Player Builds</h3>
-          <p data-key="card_builds_desc">Discover training ideas and player development tips.</p>
-        </a>
       </div>
     </section>
   </main>
