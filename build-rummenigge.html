@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-page="builds">
+
   <header class="site-header">
     <div class="container topbar">
       <a href="index.html" class="brand">Efootball ZONE</a>
@@ -19,6 +20,7 @@
         <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">Menu</button>
       </div>
     </div>
+
     <div class="container nav-wrapper" id="mobileNav">
       <nav class="navbar">
         <a href="index.html" data-key="nav_home">Home</a>
@@ -32,13 +34,29 @@
   </header>
 
   <main class="container page-section">
-    <div class="single-build-page">
-      <h1 data-key="build1_title">K. Heinz Rummenigge</h1>
-      <p data-key="rummenigge_desc">Full build image for Rummenigge.</p>
-      <img src="rummenigge-build.jpg" alt="Rummenigge full build" class="single-build-image" />
+    <section class="single-build-page">
+      <div class="single-build-header">
+        <span class="build-tag">Build 1</span>
+        <h1 data-key="build1_title">K. Heinz Rummenigge</h1>
+        <p data-key="rummenigge_desc">Full build image for Rummenigge.</p>
+      </div>
+
+      <div class="single-build-image-wrap">
+        <img
+          src="rummenigge-build.jpg"
+          alt="Rummenigge full build"
+          class="single-build-image zoomable-image"
+        />
+      </div>
+
       <a href="builds.html" class="back-to-builds" data-key="back_to_builds">Back to Builds</a>
-    </div>
+    </section>
   </main>
+
+  <div class="image-modal" id="imageModal">
+    <span class="image-modal-close" onclick="closeImageModal()">×</span>
+    <img class="image-modal-content" id="modalImage" alt="Zoomed build image" />
+  </div>
 
   <script src="script.js"></script>
 </body>
