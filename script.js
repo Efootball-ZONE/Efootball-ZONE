@@ -11,6 +11,7 @@ const translations = {
 
     home_title: "Welcome to Efootball ZONE",
     home_desc: "Latest news, leaks, player builds, training tips, pictures, videos, and more.",
+    home_builds_alert: "New builds are now available in the Builds section.",
 
     slider_title: "Latest Headlines",
     slider_desc: "Swipe through the newest updates from Efootball ZONE.",
@@ -39,57 +40,28 @@ const translations = {
     slide_6_title: "Monday pack!",
     slide_6_desc: "Albertini, Platini and Donadoni arrive in the new Monday pack.",
 
-    home_cards_title: "Main Sections",
-    home_cards_desc: "Jump quickly to the content you want.",
-    card_news: "Latest News",
-    card_news_desc: "Stay updated with the newest eFootball information.",
-    card_leaks: "Leaks",
-    card_leaks_desc: "Find rumors, upcoming content and possible new updates.",
-    card_players: "Players",
-    card_players_desc: "Explore players and discover useful information.",
-    card_builds: "Player Builds",
-    card_builds_desc: "Discover training ideas and player development tips.",
+    builds_badge: "Training",
+    builds_title: "Player Builds",
+    builds_desc: "Click a player card to open the full build image.",
 
-    news_badge: "Updates",
-    news_title: "Latest News",
-    news_desc: "This page contains the latest eFootball news and updates.",
+    build1_title: "K. Heinz Rummenigge",
+    build1_short: "Open the full build for Rummenigge.",
 
-    oldnews_date: "2026/03/11",
-    oldnews_title: "Official: New Team of the Week Players Tomorrow After the Maintenance",
-    oldnews_short: "Officially, Thursday's Team of the Week stars include Yildiz with a booster, Estupinan at LMF, and Gonzalez with Super-Sub.",
-    oldnews_full: "Konami has officially confirmed a new Team of the Week selection arriving tomorrow after the maintenance. The highlighted names include Yildiz with a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill. Fans are already waiting to see the full list and the final stats of the new cards.",
+    build2_title: "Lothar Matthäus",
+    build2_short: "Open the full build for Matthäus.",
 
-    news1_date: "2026/03/12",
-    news1_title: "Here's the new Epic / Show Time Pack!",
-    news1_short: "Breakthrough Pass B new Link Up!",
-    news1_full: "Heinz Rummenigge with Phenomenal Finishing and Blitz Curler, Lothar Matthaus with Fortress and Phenomenal Pass, Julian Alvarez with Acceleration Burst and Low Screamer, and Enzo Fernandez with the Phenomenal Pass skill.",
+    build3_title: "Julián Álvarez",
+    build3_short: "Open the full build for Julián Álvarez.",
 
-    news2_date: "2026/03/12",
-    news2_title: "Here's the full Team of the Week pack!",
-    news2_short: "This pack includes Pedri, Marmoush and Yildiz.",
-    news2_full: "Here's the full list!",
+    build4_title: "Enzo Fernández",
+    build4_short: "Open the full build for Enzo Fernández.",
 
-    news3_date: "2026/03/12",
-    news3_title: "A new Link Up manager is here!",
-    news3_short: "F. Beckenbauer 1990.",
-    news3_full: "Franz Beckenbauer is a new manager with two styles: Long Ball Counter 89 and Long Ball 89 with the Breakthrough Pass B Link Up.",
+    rummenigge_desc: "Full build image for Rummenigge.",
+    matthaus_desc: "Full build image for Matthäus.",
+    julian_desc: "Full build image for Julián Álvarez.",
+    enzo_desc: "Full build image for Enzo Fernández.",
 
-    news4_date: "2026/03/12",
-    news4_title: "eFootball Championship 2026 Open Present Campaign",
-    news4_short: "Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points!",
-    news4_full: "Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points. Make the most out of the eFootball Point Shop by exchanging Points for players and training items. Exp. Tokens are discounted from 12/03/2026 to 26/03/2026 01:59 UTC. Exp. 100 Token: 125 → 25, Exp. 1,000 Token: 1,250 → 250, Exp. 4,000 Token: 5,000 → 1,000.",
-
-    news5_date: "2026/03/12",
-    news5_title: "A new event is here!",
-    news5_short: "National Teams Campaign.",
-    news5_full: "A new Campaign Center feature is now in the game. The campaign runs from March 12 to April 2, 2026. Earned points can be exchanged for Blue and Red packs, each containing 3 items weekly. Dani Olmo comes with Phenomenal Pass, and Mac Allister comes with Visionary Pass.",
-
-    news6_date: "2026/03/12",
-    news6_title: "Monday pack!",
-    news6_short: "Demetrio Albertini, Michel Platini, Roberto Donadoni.",
-    news6_full: "Platini comes with Momentum Dribbling and Phenomenal Pass, Albertini with Phenomenal Pass, and Donadoni with Visionary Pass and Momentum Dribbling.",
-
-    video_section_title: "Pack Video",
+    back_to_builds: "Back to Builds",
 
     footer_text: "Efootball ZONE - fan-made website for news, leaks, and player ideas."
   },
@@ -106,6 +78,7 @@ const translations = {
 
     home_title: "مرحبًا بك في Efootball ZONE",
     home_desc: "آخر الأخبار، التسريبات، تطويرات اللاعبين، نصائح التدريب، الصور، الفيديوهات، وأكثر.",
+    home_builds_alert: "تمت إضافة تطويرات جديدة الآن في قسم الـ Builds.",
 
     slider_title: "أحدث العناوين",
     slider_desc: "تصفح أحدث الأخبار من Efootball ZONE.",
@@ -134,57 +107,28 @@ const translations = {
     slide_6_title: "باكج Monday!",
     slide_6_desc: "ألبرتيني وبلاتيني ودونادوني في باكج الاثنين الجديد.",
 
-    home_cards_title: "الأقسام الرئيسية",
-    home_cards_desc: "انتقل بسرعة إلى المحتوى الذي تريده.",
-    card_news: "آخر الأخبار",
-    card_news_desc: "ابقَ على اطلاع بأحدث معلومات eFootball.",
-    card_leaks: "التسريبات",
-    card_leaks_desc: "اكتشف الإشاعات والمحتوى القادم والتحديثات المحتملة.",
-    card_players: "اللاعبون",
-    card_players_desc: "استكشف اللاعبين واكتشف معلومات مفيدة.",
-    card_builds: "تطويرات اللاعبين",
-    card_builds_desc: "اكتشف أفكار التدريب ونصائح تطوير اللاعبين.",
+    builds_badge: "تدريب",
+    builds_title: "تطويرات اللاعبين",
+    builds_desc: "اضغط على كارت اللاعب لفتح صورة البيلد الكاملة.",
 
-    news_badge: "تحديثات",
-    news_title: "آخر الأخبار",
-    news_desc: "هذه الصفحة تحتوي على آخر أخبار وتحديثات eFootball.",
+    build1_title: "K. Heinz Rummenigge",
+    build1_short: "افتح البيلد الكامل لرومينيغه.",
 
-    oldnews_date: "2026/03/11",
-    oldnews_title: "رسمي: نجوم فريق الأسبوع الجدد غدًا بعد الصيانة",
-    oldnews_short: "رسميًا، نجوم أسبوع الخميس هم يلدز مع بوستر، واستوبينيان في مركز LMF، وجونزاليز بميزة السوبر صب.",
-    oldnews_full: "أكدت كونامي رسميًا وصول تشكيلة جديدة لفريق الأسبوع غدًا بعد الصيانة. الأسماء البارزة تشمل يلدز مع بوستر، واستوبينيان في مركز LMF، وجونزاليز بمهارة السوبر صب. الجماهير الآن تنتظر رؤية اللائحة الكاملة والإحصائيات النهائية للبطاقات الجديدة.",
+    build2_title: "Lothar Matthäus",
+    build2_short: "افتح البيلد الكامل لماتيوس.",
 
-    news1_date: "2026/03/12",
-    news1_title: "إليك باكج Epic / Show Time الجديد!",
-    news1_short: "Breakthrough Pass B مع Link Up جديد!",
-    news1_full: "هاينز رومينيغه يأتي بمهارتي Phenomenal Finishing و Blitz Curler، ولوثار ماتيوس بمهارتي Fortress و Phenomenal Pass، وخوليان ألفاريز بمهارتي Acceleration Burst و Low Screamer، وإنزو فرنانديز بمهارة Phenomenal Pass.",
+    build3_title: "Julián Álvarez",
+    build3_short: "افتح البيلد الكامل لخوليان ألفاريز.",
 
-    news2_date: "2026/03/12",
-    news2_title: "إليك باكج فريق الأسبوع الكامل!",
-    news2_short: "هذا الباكج يضم بيدري ومرموش ويلديز.",
-    news2_full: "إليك القائمة الكاملة!",
+    build4_title: "Enzo Fernández",
+    build4_short: "افتح البيلد الكامل لإنزو فرنانديز.",
 
-    news3_date: "2026/03/12",
-    news3_title: "مدرب Link Up جديد هنا!",
-    news3_short: "F. Beckenbauer 1990.",
-    news3_full: "فرانز بيكنباور مدرب جديد بأسلوبين: Long Ball Counter 89 و Long Ball 89 مع Breakthrough Pass B Link Up.",
+    rummenigge_desc: "صورة البيلد الكاملة لرومينيغه.",
+    matthaus_desc: "صورة البيلد الكاملة لماتيوس.",
+    julian_desc: "صورة البيلد الكاملة لخوليان ألفاريز.",
+    enzo_desc: "صورة البيلد الكاملة لإنزو فرنانديز.",
 
-    news4_date: "2026/03/12",
-    news4_title: "حملة eFootball Championship 2026 Open",
-    news4_short: "احتفل ببطولة eFootball Championship 2026 Open مع 3000 نقطة eFootball!",
-    news4_full: "احتفل ببطولة eFootball Championship 2026 Open مع 3000 نقطة eFootball. استفد من متجر النقاط بتبديل النقاط باللاعبين وعناصر التدريب. تم تخفيض Exp. Tokens من 12/03/2026 إلى 26/03/2026 01:59 UTC. Exp. 100: من 125 إلى 25، Exp. 1,000: من 1,250 إلى 250، Exp. 4,000: من 5,000 إلى 1,000.",
-
-    news5_date: "2026/03/12",
-    news5_title: "حدث جديد هنا!",
-    news5_short: "حملة المنتخبات الوطنية.",
-    news5_full: "تمت إضافة ميزة Campaign Center جديدة داخل اللعبة. الحملة تمتد من 12 مارس إلى 2 أبريل 2026. يمكن استبدال النقاط المكتسبة بباكجات Blue و Red، وكل واحد منها يحتوي على 3 عناصر أسبوعيًا. داني أولمو يأتي بمهارة Phenomenal Pass، وماك أليستر يأتي بمهارة Visionary Pass.",
-
-    news6_date: "2026/03/12",
-    news6_title: "باكج Monday!",
-    news6_short: "ديميتريو ألبرتيني، ميشيل بلاتيني، روبيرتو دونادوني.",
-    news6_full: "بلاتيني يأتي بمهارتي Momentum Dribbling و Phenomenal Pass، وألبرتيني بمهارة Phenomenal Pass، ودونادوني بمهارتي Visionary Pass و Momentum Dribbling.",
-
-    video_section_title: "فيديو الباكج",
+    back_to_builds: "العودة إلى الـ Builds",
 
     footer_text: "Efootball ZONE - موقع جماهيري للأخبار والتسريبات وأفكار تطوير اللاعبين."
   },
@@ -201,6 +145,7 @@ const translations = {
 
     home_title: "Bienvenue sur Efootball ZONE",
     home_desc: "Dernières actualités, leaks, builds de joueurs, conseils d'entraînement, images, vidéos et plus.",
+    home_builds_alert: "De nouveaux builds sont maintenant disponibles dans la section Builds.",
 
     slider_title: "Derniers titres",
     slider_desc: "Parcourez les dernières actualités de Efootball ZONE.",
@@ -229,57 +174,28 @@ const translations = {
     slide_6_title: "Monday pack !",
     slide_6_desc: "Albertini, Platini et Donadoni arrivent dans le nouveau pack du lundi.",
 
-    home_cards_title: "Sections principales",
-    home_cards_desc: "Accédez rapidement au contenu que vous voulez.",
-    card_news: "Dernières actualités",
-    card_news_desc: "Restez à jour avec les dernières informations sur eFootball.",
-    card_leaks: "Leaks",
-    card_leaks_desc: "Découvrez les rumeurs, le contenu à venir et les mises à jour possibles.",
-    card_players: "Joueurs",
-    card_players_desc: "Explorez les joueurs et découvrez des informations utiles.",
-    card_builds: "Builds joueurs",
-    card_builds_desc: "Découvrez des idées d'entraînement et des conseils de progression.",
+    builds_badge: "Entraînement",
+    builds_title: "Builds joueurs",
+    builds_desc: "Cliquez sur une carte de joueur pour ouvrir l'image complète du build.",
 
-    news_badge: "Mises à jour",
-    news_title: "Dernières actualités",
-    news_desc: "Cette page contient les dernières actualités et mises à jour eFootball.",
+    build1_title: "K. Heinz Rummenigge",
+    build1_short: "Ouvrez le build complet de Rummenigge.",
 
-    oldnews_date: "2026/03/11",
-    oldnews_title: "Officiel : nouveaux joueurs Team of the Week demain après la maintenance",
-    oldnews_short: "Officiellement, les stars du Team of the Week de jeudi incluent Yildiz avec un booster, Estupinan en LMF et Gonzalez avec Super-Sub.",
-    oldnews_full: "Konami a officiellement confirmé l'arrivée d'une nouvelle sélection Team of the Week demain après la maintenance. Les noms mis en avant incluent Yildiz avec un booster, Estupinan au poste de LMF et Gonzalez avec la compétence Super-Sub. Les fans attendent maintenant la liste complète ainsi que les statistiques finales des nouvelles cartes.",
+    build2_title: "Lothar Matthäus",
+    build2_short: "Ouvrez le build complet de Matthäus.",
 
-    news1_date: "2026/03/12",
-    news1_title: "Voici le nouveau pack Epic / Show Time !",
-    news1_short: "Breakthrough Pass B avec un nouveau Link Up !",
-    news1_full: "Heinz Rummenigge arrive avec Phenomenal Finishing et Blitz Curler, Lothar Matthaus avec Fortress et Phenomenal Pass, Julian Alvarez avec Acceleration Burst et Low Screamer, et Enzo Fernandez avec la compétence Phenomenal Pass.",
+    build3_title: "Julián Álvarez",
+    build3_short: "Ouvrez le build complet de Julián Álvarez.",
 
-    news2_date: "2026/03/12",
-    news2_title: "Voici le pack Team of the Week complet !",
-    news2_short: "Ce pack comprend Pedri, Marmoush et Yildiz.",
-    news2_full: "Voici la liste complète !",
+    build4_title: "Enzo Fernández",
+    build4_short: "Ouvrez le build complet de Enzo Fernández.",
 
-    news3_date: "2026/03/12",
-    news3_title: "Un nouveau manager Link Up est là !",
-    news3_short: "F. Beckenbauer 1990.",
-    news3_full: "Franz Beckenbauer est un nouveau manager avec deux styles : Long Ball Counter 89 et Long Ball 89 avec Breakthrough Pass B Link Up.",
+    rummenigge_desc: "Image complète du build de Rummenigge.",
+    matthaus_desc: "Image complète du build de Matthäus.",
+    julian_desc: "Image complète du build de Julián Álvarez.",
+    enzo_desc: "Image complète du build de Enzo Fernández.",
 
-    news4_date: "2026/03/12",
-    news4_title: "eFootball Championship 2026 Open Present Campaign",
-    news4_short: "Célébrez l'eFootball Championship 2026 Open avec 3 000 points eFootball !",
-    news4_full: "Célébrez l'eFootball Championship 2026 Open avec 3 000 points eFootball. Profitez du Point Shop en échangeant des points contre des joueurs et objets d'entraînement. Les Exp. Tokens sont en réduction du 12/03/2026 au 26/03/2026 01:59 UTC. Exp. 100 : 125 → 25, Exp. 1 000 : 1 250 → 250, Exp. 4 000 : 5 000 → 1 000.",
-
-    news5_date: "2026/03/12",
-    news5_title: "Un nouvel événement est là !",
-    news5_short: "National Teams Campaign.",
-    news5_full: "Une nouvelle fonction Campaign Center arrive dans le jeu. La campagne se déroule du 12 mars au 2 avril 2026. Les points gagnés peuvent être échangés contre des packs Blue et Red, chacun contenant 3 objets chaque semaine. Dani Olmo arrive avec Phenomenal Pass et Mac Allister avec Visionary Pass.",
-
-    news6_date: "2026/03/12",
-    news6_title: "Monday pack !",
-    news6_short: "Demetrio Albertini, Michel Platini, Roberto Donadoni.",
-    news6_full: "Platini arrive avec Momentum Dribbling et Phenomenal Pass, Albertini avec Phenomenal Pass, et Donadoni avec Visionary Pass et Momentum Dribbling.",
-
-    video_section_title: "Vidéo du pack",
+    back_to_builds: "Retour aux Builds",
 
     footer_text: "Efootball ZONE - site fan pour actualités, leaks et idées de builds joueurs."
   }
@@ -329,6 +245,10 @@ function setLanguage(lang) {
   applyTranslations(lang);
 }
 
+function getCurrentLanguage() {
+  return localStorage.getItem("siteLanguage") || "en";
+}
+
 function highlightActiveNav() {
   const page = document.body.getAttribute("data-page");
   const navLinks = document.querySelectorAll(".navbar a");
@@ -346,30 +266,6 @@ function highlightActiveNav() {
       link.classList.add("active-nav");
     }
   });
-}
-
-function filterPlayers() {
-  const input = document.getElementById("playerSearch");
-  if (!input) return;
-
-  const filter = input.value.toLowerCase();
-  const cards = document.querySelectorAll(".player-card");
-
-  cards.forEach((card) => {
-    const playerName = card.getAttribute("data-player");
-    card.style.display = playerName.includes(filter) ? "block" : "none";
-  });
-}
-
-function showContactMessage() {
-  const success = document.getElementById("contactSuccess");
-  if (success) {
-    success.textContent = translations[getCurrentLanguage()].contact_success;
-  }
-}
-
-function getCurrentLanguage() {
-  return localStorage.getItem("siteLanguage") || "en";
 }
 
 function toggleMenu() {
@@ -439,7 +335,6 @@ function setupTouchSlider() {
 
 function handleSwipe() {
   const diff = touchStartX - touchEndX;
-
   if (Math.abs(diff) < 40) return;
 
   if (diff > 0) {
@@ -449,6 +344,42 @@ function handleSwipe() {
   }
 }
 
+function setupImageZoom() {
+  const zoomableImages = document.querySelectorAll(".zoomable-image");
+  const modal = document.getElementById("imageModal");
+  const modalImage = document.getElementById("modalImage");
+
+  if (!zoomableImages.length || !modal || !modalImage) return;
+
+  zoomableImages.forEach((img) => {
+    img.addEventListener("click", () => {
+      modal.classList.add("show");
+      modalImage.src = img.src;
+      modalImage.alt = img.alt;
+      document.body.classList.add("no-scroll");
+    });
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      closeImageModal();
+    }
+  });
+}
+
+function closeImageModal() {
+  const modal = document.getElementById("imageModal");
+  if (!modal) return;
+  modal.classList.remove("show");
+  document.body.classList.remove("no-scroll");
+}
+
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    closeImageModal();
+  }
+});
+
 window.addEventListener("DOMContentLoaded", () => {
   const savedLanguage = getCurrentLanguage();
   applyTranslations(savedLanguage);
@@ -456,6 +387,7 @@ window.addEventListener("DOMContentLoaded", () => {
   goToSlide(0);
   startSlider();
   setupTouchSlider();
+  setupImageZoom();
   closeMenuOnDesktop();
 });
 
