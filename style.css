@@ -604,3 +604,126 @@ html[dir="rtl"] .player-top {
     display: block !important;
   }
 }
+
+.builds-popup-banner {
+  margin: 0 0 24px;
+}
+
+.builds-popup-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  margin: 0 auto;
+  background: rgba(18, 31, 56, 0.94);
+  border: 1px solid rgba(73, 194, 255, 0.35);
+  color: #f5f7fb;
+  padding: 12px 18px;
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.builds-popup-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #49c2ff;
+  box-shadow: 0 0 10px #49c2ff;
+}
+
+.builds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.build-card-simple {
+  display: block;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: 0.2s ease;
+}
+
+.build-card-simple:hover {
+  transform: translateY(-4px);
+  border-color: rgba(73, 194, 255, 0.36);
+}
+
+.build-card-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  background: #000;
+}
+
+.build-card-text {
+  padding: 18px;
+}
+
+.build-card-text h2 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+}
+
+.build-card-text p {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+.single-build-page {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+  text-align: center;
+}
+
+.single-build-page h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+.single-build-page p {
+  color: var(--text-soft);
+  margin-bottom: 18px;
+}
+
+.single-build-image {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 18px;
+  background: #000;
+  border: 1px solid var(--border);
+  display: block;
+  margin: 0 auto;
+}
+
+.back-to-builds {
+  display: inline-block;
+  margin-top: 18px;
+  background: linear-gradient(180deg, var(--accent), #2db0f2);
+  color: #04131f;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .build-card-image {
+    height: 230px;
+  }
+
+  .single-build-page {
+    padding: 18px;
+  }
+
+  .single-build-page h1 {
+    font-size: 1.5rem;
+  }
+}
