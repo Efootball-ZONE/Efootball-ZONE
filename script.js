@@ -5,9 +5,10 @@ const translations = {
     nav_home: "Home",
     nav_news: "News",
     nav_leaks: "Leaks",
-    nav_players: "Players",
     nav_builds: "Builds",
+    nav_weekly_picks: "Weekly Picks",
     nav_contact: "Contact",
+    nav_about: "About",
 
     home_title: "Welcome to Efootball ZONE",
     home_desc: "Latest news, leaks, player builds, training tips, pictures, videos, and more.",
@@ -46,13 +47,10 @@ const translations = {
 
     build1_title: "K. Heinz Rummenigge",
     build1_short: "Open the full build for Rummenigge.",
-
     build2_title: "Lothar Matthäus",
     build2_short: "Open the full build for Matthäus.",
-
     build3_title: "Julián Álvarez",
     build3_short: "Open the full build for Julián Álvarez.",
-
     build4_title: "Enzo Fernández",
     build4_short: "Open the full build for Enzo Fernández.",
 
@@ -60,9 +58,22 @@ const translations = {
     matthaus_desc: "Full build image for Matthäus.",
     julian_desc: "Full build image for Julián Álvarez.",
     enzo_desc: "Full build image for Enzo Fernández.",
-
     back_to_builds: "Back to Builds",
 
+    weekly_picks_badge: "Weekly Guide",
+    weekly_picks_title: "Weekly Picks",
+    weekly_picks_desc: "Choose a section to see the best players and condition picks for this week.",
+    weekly_pick_free_title: "Best Free Players to Use This Week",
+    weekly_pick_condition_title: "Players in A Condition This Week",
+    weekly_pick_free_badge: "Free Picks",
+    weekly_pick_free_desc: "This page will show the best free players to use this week.",
+    weekly_pick_condition_badge: "A Condition",
+    weekly_pick_condition_desc: "This page will show the players who are in A condition this week.",
+    weekly_pick_placeholder_title: "Coming Soon",
+    weekly_pick_placeholder_desc: "Send me the players you want to feature here and I will build the page exactly as you want.",
+
+    footer_privacy: "Privacy Policy",
+    footer_disclaimer: "Disclaimer",
     footer_text: "Efootball ZONE - fan-made website for news, leaks, and player ideas."
   },
 
@@ -72,9 +83,10 @@ const translations = {
     nav_home: "الرئيسية",
     nav_news: "الأخبار",
     nav_leaks: "التسريبات",
-    nav_players: "اللاعبون",
     nav_builds: "التطويرات",
+    nav_weekly_picks: "اختيارات الأسبوع",
     nav_contact: "اتصل بنا",
+    nav_about: "حول",
 
     home_title: "مرحبًا بك في Efootball ZONE",
     home_desc: "آخر الأخبار، التسريبات، تطويرات اللاعبين، نصائح التدريب، الصور، الفيديوهات، وأكثر.",
@@ -113,13 +125,10 @@ const translations = {
 
     build1_title: "K. Heinz Rummenigge",
     build1_short: "افتح البيلد الكامل لرومينيغه.",
-
     build2_title: "Lothar Matthäus",
     build2_short: "افتح البيلد الكامل لماتيوس.",
-
     build3_title: "Julián Álvarez",
     build3_short: "افتح البيلد الكامل لخوليان ألفاريز.",
-
     build4_title: "Enzo Fernández",
     build4_short: "افتح البيلد الكامل لإنزو فرنانديز.",
 
@@ -127,9 +136,22 @@ const translations = {
     matthaus_desc: "صورة البيلد الكاملة لماتيوس.",
     julian_desc: "صورة البيلد الكاملة لخوليان ألفاريز.",
     enzo_desc: "صورة البيلد الكاملة لإنزو فرنانديز.",
-
     back_to_builds: "العودة إلى الـ Builds",
 
+    weekly_picks_badge: "دليل الأسبوع",
+    weekly_picks_title: "اختيارات الأسبوع",
+    weekly_picks_desc: "اختر قسمًا لرؤية أفضل اللاعبين واختيارات الفورمة لهذا الأسبوع.",
+    weekly_pick_free_title: "أفضل اللاعبين المجانيين للاستعمال هذا الأسبوع",
+    weekly_pick_condition_title: "اللاعبون في فورمة A هذا الأسبوع",
+    weekly_pick_free_badge: "اختيارات مجانية",
+    weekly_pick_free_desc: "هذه الصفحة ستعرض أفضل اللاعبين المجانيين للاستعمال هذا الأسبوع.",
+    weekly_pick_condition_badge: "فورمة A",
+    weekly_pick_condition_desc: "هذه الصفحة ستعرض اللاعبين الذين يملكون فورمة A هذا الأسبوع.",
+    weekly_pick_placeholder_title: "قريبًا",
+    weekly_pick_placeholder_desc: "أرسل لي اللاعبين الذين تريد وضعهم هنا وسأبني الصفحة كما تريد تمامًا.",
+
+    footer_privacy: "سياسة الخصوصية",
+    footer_disclaimer: "إخلاء المسؤولية",
     footer_text: "Efootball ZONE - موقع جماهيري للأخبار والتسريبات وأفكار تطوير اللاعبين."
   },
 
@@ -139,9 +161,10 @@ const translations = {
     nav_home: "Accueil",
     nav_news: "Actualités",
     nav_leaks: "Leaks",
-    nav_players: "Joueurs",
     nav_builds: "Builds",
+    nav_weekly_picks: "Choix de la semaine",
     nav_contact: "Contact",
+    nav_about: "À propos",
 
     home_title: "Bienvenue sur Efootball ZONE",
     home_desc: "Dernières actualités, leaks, builds de joueurs, conseils d'entraînement, images, vidéos et plus.",
@@ -180,13 +203,10 @@ const translations = {
 
     build1_title: "K. Heinz Rummenigge",
     build1_short: "Ouvrez le build complet de Rummenigge.",
-
     build2_title: "Lothar Matthäus",
     build2_short: "Ouvrez le build complet de Matthäus.",
-
     build3_title: "Julián Álvarez",
     build3_short: "Ouvrez le build complet de Julián Álvarez.",
-
     build4_title: "Enzo Fernández",
     build4_short: "Ouvrez le build complet de Enzo Fernández.",
 
@@ -194,9 +214,22 @@ const translations = {
     matthaus_desc: "Image complète du build de Matthäus.",
     julian_desc: "Image complète du build de Julián Álvarez.",
     enzo_desc: "Image complète du build de Enzo Fernández.",
-
     back_to_builds: "Retour aux Builds",
 
+    weekly_picks_badge: "Guide hebdomadaire",
+    weekly_picks_title: "Choix de la semaine",
+    weekly_picks_desc: "Choisissez une section pour voir les meilleurs joueurs et les choix de condition de cette semaine.",
+    weekly_pick_free_title: "Meilleurs joueurs gratuits à utiliser cette semaine",
+    weekly_pick_condition_title: "Joueurs en condition A cette semaine",
+    weekly_pick_free_badge: "Choix gratuits",
+    weekly_pick_free_desc: "Cette page affichera les meilleurs joueurs gratuits à utiliser cette semaine.",
+    weekly_pick_condition_badge: "Condition A",
+    weekly_pick_condition_desc: "Cette page affichera les joueurs qui sont en condition A cette semaine.",
+    weekly_pick_placeholder_title: "Bientôt disponible",
+    weekly_pick_placeholder_desc: "Envoyez-moi les joueurs que vous voulez afficher ici et je construirai la page exactement comme vous le souhaitez.",
+
+    footer_privacy: "Politique de confidentialité",
+    footer_disclaimer: "Avertissement",
     footer_text: "Efootball ZONE - site fan pour actualités, leaks et idées de builds joueurs."
   }
 };
@@ -259,9 +292,10 @@ function highlightActiveNav() {
       (page === "home" && href === "index.html") ||
       (page === "news" && href === "news.html") ||
       (page === "leaks" && href === "leaks.html") ||
-      (page === "players" && href === "players.html") ||
       (page === "builds" && href === "builds.html") ||
-      (page === "contact" && href === "contact.html")
+      (page === "weekly-picks" && href === "weekly-picks.html") ||
+      (page === "contact" && href === "contact.html") ||
+      (page === "about" && href === "about.html")
     ) {
       link.classList.add("active-nav");
     }
