@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efootball ZONE - Matthäus Build</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="builds">
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">Menu</button>
+      </div>
+    </div>
+    <div class="container nav-wrapper" id="mobileNav">
+      <nav class="navbar">
+        <a href="index.html" data-key="nav_home">Home</a>
+        <a href="news.html" data-key="nav_news">News</a>
+        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
+        <a href="players.html" data-key="nav_players">Players</a>
+        <a href="builds.html" data-key="nav_builds">Builds</a>
+        <a href="contact.html" data-key="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-section">
+    <div class="single-build-page">
+      <h1 data-key="build2_title">Lothar Matthäus</h1>
+      <p data-key="matthaus_desc">Full build image for Matthäus.</p>
+      <img src="matthaus-build.jpg" alt="Matthaus full build" class="single-build-image" />
+      <a href="builds.html" class="back-to-builds" data-key="back_to_builds">Back to Builds</a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
