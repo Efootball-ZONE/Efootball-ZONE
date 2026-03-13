@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efootball ZONE - Weekly Picks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="weekly-picks">
+
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
+
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
+
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
+          Menu
+        </button>
+      </div>
+    </div>
+
+    <div class="container nav-wrapper" id="mobileNav">
+      <nav class="navbar">
+        <a href="index.html" data-key="nav_home">Home</a>
+        <a href="news.html" data-key="nav_news">News</a>
+        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
+        <a href="builds.html" data-key="nav_builds">Builds</a>
+        <a href="weekly-picks.html" data-key="nav_weekly_picks">Weekly Picks</a>
+        <a href="contact.html" data-key="nav_contact">Contact</a>
+        <a href="about.html" data-key="nav_about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-section">
+    <div class="page-header">
+      <span class="hero-badge" data-key="weekly_picks_badge">Weekly Guide</span>
+      <h1 data-key="weekly_picks_title">Weekly Picks</h1>
+      <p data-key="weekly_picks_desc">Choose a section to see the best players and condition picks for this week.</p>
+    </div>
+
+    <div class="weekly-picks-grid">
+      <a href="best-free-players.html" class="weekly-pick-card">
+        <div class="weekly-pick-box"></div>
+        <h2 data-key="weekly_pick_free_title">Best Free Players to Use This Week</h2>
+      </a>
+
+      <a href="a-condition-players.html" class="weekly-pick-card">
+        <div class="weekly-pick-box"></div>
+        <h2 data-key="weekly_pick_condition_title">Players in A Condition This Week</h2>
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p data-key="footer_text">Efootball ZONE - fan-made website for news, leaks, and player ideas.</p>
+      <div class="footer-links">
+        <a href="about.html" data-key="nav_about">About</a>
+        <a href="privacy-policy.html" data-key="footer_privacy">Privacy Policy</a>
+        <a href="disclaimer.html" data-key="footer_disclaimer">Disclaimer</a>
+        <a href="contact.html" data-key="nav_contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
