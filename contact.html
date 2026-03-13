@@ -1,78 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Efootball ZONE - Contact</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Efootball ZONE</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body data-page="contact">
 
-  <header class="site-header">
-    <div class="container topbar">
-      <a href="index.html" class="brand">Efootball ZONE</a>
+<body>
 
-      <div class="header-actions">
-        <div class="lang-switcher">
-          <button type="button" onclick="setLanguage('en')">EN</button>
-          <button type="button" onclick="setLanguage('ar')">AR</button>
-          <button type="button" onclick="setLanguage('fr')">FR</button>
-        </div>
+<header class="site-header">
+<div class="container topbar">
+<a href="index.html" class="brand">Efootball ZONE</a>
 
-        <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
-          Menu
-        </button>
-      </div>
-    </div>
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="news.html">News</a>
+<a href="leaks.html">Leaks</a>
+<a href="builds.html">Builds</a>
+<a href="contact.html">Contact</a>
+<a href="about.html">About</a>
+</nav>
+</div>
+</header>
 
-    <div class="container nav-wrapper" id="mobileNav">
-      <nav class="navbar">
-        <a href="index.html" data-key="nav_home">Home</a>
-        <a href="news.html" data-key="nav_news">News</a>
-        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
-        <a href="players.html" data-key="nav_players">Players</a>
-        <a href="builds.html" data-key="nav_builds">Builds</a>
-        <a href="contact.html" data-key="nav_contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+<main class="container page-section">
 
-  <main class="container page-section">
-    <div class="page-header">
-      <span class="hero-badge" data-key="contact_badge">Contact</span>
-      <h1 data-key="contact_title">Contact</h1>
-      <p data-key="contact_desc">You can place your email or social media links here later.</p>
-    </div>
+<h1>Contact</h1>
+<p>You can contact us through the following platforms.</p>
 
-    <div class="contact-card">
-      <form class="contact-form" onsubmit="event.preventDefault(); showContactMessage();">
-        <div class="form-group">
-          <label for="name" data-key="contact_name">Name</label>
-          <input type="text" id="name" data-placeholder-key="contact_name_placeholder" placeholder="Your name" />
-        </div>
+<div class="contact-buttons">
 
-        <div class="form-group">
-          <label for="email" data-key="contact_email">Email</label>
-          <input type="email" id="email" data-placeholder-key="contact_email_placeholder" placeholder="Your email" />
-        </div>
+<a class="contact-btn" href="mailto:msadekayoub1@gmail.com">
+Email
+</a>
 
-        <div class="form-group">
-          <label for="message" data-key="contact_message">Message</label>
-          <textarea id="message" rows="5" data-placeholder-key="contact_message_placeholder" placeholder="Write your message"></textarea>
-        </div>
+<a class="contact-btn" href="https://facebook.com/AybNova" target="_blank">
+Facebook
+</a>
 
-        <button type="submit" class="submit-btn" data-key="contact_send">Send</button>
-        <p id="contactSuccess" class="success-message"></p>
-      </form>
-    </div>
-  </main>
+<a class="contact-btn" href="https://instagram.com/ayb_nova_6" target="_blank">
+Instagram
+</a>
 
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <p data-key="footer_text">Efootball ZONE - fan-made website for news, leaks, and player ideas.</p>
-    </div>
-  </footer>
+<a class="contact-btn" href="https://wa.me/212684465750" target="_blank">
+WhatsApp
+</a>
 
-  <script src="script.js"></script>
+</div>
+
+</main>
+
+<footer class="site-footer">
+<p>© 2026 Efootball ZONE</p>
+
+<div class="footer-links">
+<a href="about.html">About</a>
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="disclaimer.html">Disclaimer</a>
+<a href="contact.html">Contact</a>
+</div>
+
+</footer>
+
 </body>
 </html>
