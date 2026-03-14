@@ -1,70 +1,158 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Efootball ZONE - Best Free Players</title>
-  <link rel="stylesheet" href="style.css" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Best Free Players This Week</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.players-slider{
+display:flex;
+gap:20px;
+overflow-x:auto;
+padding:20px 10px;
+scroll-behavior:smooth;
+}
+
+.players-slider::-webkit-scrollbar{
+height:8px;
+}
+
+.players-slider::-webkit-scrollbar-thumb{
+background:#00c3ff;
+border-radius:10px;
+}
+
+.player-card{
+
+min-width:180px;
+background:#0b1522;
+border-radius:14px;
+padding:10px;
+text-align:center;
+transition:0.25s;
+cursor:pointer;
+
+}
+
+.player-card:hover{
+
+transform:translateY(-6px) scale(1.03);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+.player-card img{
+
+width:100%;
+border-radius:10px;
+
+}
+
+.player-name{
+
+margin-top:8px;
+font-size:16px;
+font-weight:600;
+
+}
+
+.page-title{
+
+text-align:center;
+margin-top:40px;
+font-size:34px;
+
+}
+
+.week-title{
+
+text-align:center;
+opacity:0.7;
+margin-bottom:20px;
+
+}
+
+</style>
+
 </head>
-<body data-page="weekly-picks">
 
-  <header class="site-header">
-    <div class="container topbar">
-      <a href="index.html" class="brand">Efootball ZONE</a>
+<body>
 
-      <div class="header-actions">
-        <div class="lang-switcher">
-          <button type="button" onclick="setLanguage('en')">EN</button>
-          <button type="button" onclick="setLanguage('ar')">AR</button>
-          <button type="button" onclick="setLanguage('fr')">FR</button>
-        </div>
+<header class="site-header">
 
-        <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
-          Menu
-        </button>
-      </div>
-    </div>
+<div class="container topbar">
 
-    <div class="container nav-wrapper" id="mobileNav">
-      <nav class="navbar">
-        <a href="index.html" data-key="nav_home">Home</a>
-        <a href="news.html" data-key="nav_news">News</a>
-        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
-        <a href="builds.html" data-key="nav_builds">Builds</a>
-        <a href="weekly-picks.html" data-key="nav_weekly_picks">Weekly Picks</a>
-        <a href="contact.html" data-key="nav_contact">Contact</a>
-        <a href="about.html" data-key="nav_about">About</a>
-      </nav>
-    </div>
-  </header>
+<a href="index.html" class="brand">Efootball ZONE</a>
 
-  <main class="container page-section">
-    <div class="page-header">
-      <span class="hero-badge" data-key="weekly_pick_free_badge">Free Picks</span>
-      <h1 data-key="weekly_pick_free_title">Best Free Players to Use This Week</h1>
-      <p data-key="weekly_pick_free_desc">This page will show the best free players to use this week.</p>
-    </div>
+<nav class="navbar">
 
-    <div class="article-list">
-      <article class="article-card">
-        <h2 data-key="weekly_pick_placeholder_title">Coming Soon</h2>
-        <p data-key="weekly_pick_placeholder_desc">Send me the players you want to feature here and I will build the page exactly as you want.</p>
-      </article>
-    </div>
-  </main>
+<a href="index.html">Home</a>
+<a href="news.html">News</a>
+<a href="leaks.html">Leaks</a>
+<a href="builds.html">Builds</a>
+<a href="weekly-picks.html">Weekly Picks</a>
+<a href="contact.html">Contact</a>
+<a href="about.html">About</a>
 
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <p data-key="footer_text">Efootball ZONE - fan-made website for news, leaks, and player ideas.</p>
-      <div class="footer-links">
-        <a href="about.html" data-key="nav_about">About</a>
-        <a href="privacy-policy.html" data-key="footer_privacy">Privacy Policy</a>
-        <a href="disclaimer.html" data-key="footer_disclaimer">Disclaimer</a>
-        <a href="contact.html" data-key="nav_contact">Contact</a>
-      </div>
-    </div>
-  </footer>
+</nav>
 
-  <script src="script.js"></script>
+</div>
+
+</header>
+
+<h1 class="page-title">Best Free Players</h1>
+
+<p class="week-title">Players to use this week</p>
+
+<div class="players-slider">
+
+<div class="player-card">
+<img src="yildiz.webp">
+<div class="player-name">Kenan Yildiz</div>
+</div>
+
+<div class="player-card">
+<img src="fede.webp">
+<div class="player-name">Federico Valverde</div>
+</div>
+
+<div class="player-card">
+<img src="lamine.webp">
+<div class="player-name">Lamine Yamal</div>
+</div>
+
+<div class="player-card">
+<img src="mac.png">
+<div class="player-name">Mac Allister</div>
+</div>
+
+<div class="player-card">
+<img src="nico.webp">
+<div class="player-name">Nico Williams</div>
+</div>
+
+<div class="player-card">
+<img src="olmo.webp">
+<div class="player-name">Dani Olmo</div>
+</div>
+
+<div class="player-card">
+<img src="omar.webp">
+<div class="player-name">Omar Marmoush</div>
+</div>
+
+<div class="player-card">
+<img src="pedri.webp">
+<div class="player-name">Pedri</div>
+</div>
+
+</div>
+
 </body>
 </html>
