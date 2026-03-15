@@ -8,69 +8,92 @@
 </head>
 <body data-page="leaks">
 
- <header class="site-header">
-  <div class="container topbar">
-    <a href="index.html" class="brand">Efootball ZONE</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
 
-    <div class="header-actions">
-      <div class="lang-switcher">
-        <button type="button" onclick="setLanguage('en')">EN</button>
-        <button type="button" onclick="setLanguage('ar')">AR</button>
-        <button type="button" onclick="setLanguage('fr')">FR</button>
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
+
+        <button class="menu-toggle" type="button" onclick="toggleMenu()">
+          Menu
+        </button>
       </div>
-
-      <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
-        Menu
-      </button>
     </div>
-  </div>
 
-  <div class="container nav-wrapper" id="mobileNav">
-    <nav class="navbar">
-      <a href="index.html" data-key="nav_home">Home</a>
-      <a href="news.html" data-key="nav_news">News</a>
-      <a href="leaks.html" data-key="nav_leaks">Leaks</a>
-      <a href="builds.html" data-key="nav_builds">Builds</a>
-      <a href="weekly-picks.html" data-key="nav_weekly_picks">Weekly Picks</a>
-      <a href="contact.html" data-key="nav_contact">Contact</a>
-      <a href="about.html" data-key="nav_about">About</a>
-    </nav>
-  </div>
-</header>
+    <div class="container nav-wrapper" id="mobileNav">
+      <nav class="navbar">
+        <a href="index.html" data-translate="nav_home">Home</a>
+        <a href="news.html" data-translate="nav_news">News</a>
+        <a href="leaks.html" class="active-nav" data-translate="nav_leaks">Leaks</a>
+        <a href="builds.html" data-translate="nav_builds">Builds</a>
+        <a href="weekly-picks.html" data-translate="nav_weekly">Weekly Picks</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+        <a href="about.html" data-translate="nav_about">About</a>
+      </nav>
+    </div>
+  </header>
 
   <main class="container page-section">
     <div class="page-header">
-      <span class="hero-badge" data-key="leaks_badge">Rumors</span>
-      <h1 data-key="leaks_title">Leaks</h1>
-      <p data-key="leaks_desc">This page contains eFootball leaks, rumors, and possible hidden content.</p>
+      <span class="hero-badge">Leaks</span>
+      <h1>Latest Leaks</h1>
+      <p>
+        This page contains leaks, early information and possible upcoming eFootball content.
+      </p>
     </div>
 
-    <div class="cards-grid">
-      <article class="card">
-        <h3 data-key="leak_item_1_title">Possible upcoming special cards</h3>
-        <p data-key="leak_item_1_desc">Fans are expecting club stars, legends, or event-exclusive cards in future packs.</p>
+    <div class="article-list">
+
+      <article class="article-card">
+        <div class="article-meta">Leak</div>
+        <h2>Upcoming packs may continue the current content trend</h2>
+        <p>
+          Based on recent releases, future content may continue focusing on themed Epic packs, Monday packs and event rewards. This is an early expectation and not official confirmation.
+        </p>
       </article>
 
-      <article class="card">
-        <h3 data-key="leak_item_2_title">Event reward speculation</h3>
-        <p data-key="leak_item_2_desc">Campaign rewards may include coins, trainers, contracts, or player items.</p>
+      <article class="article-card">
+        <div class="article-meta">Leak</div>
+        <h2>More special campaign rewards could arrive soon</h2>
+        <p>
+          Weekly campaigns and login rewards may continue in the next update cycle, especially around special events and competitive periods.
+        </p>
       </article>
 
-      <article class="card">
-        <h3 data-key="leak_item_3_title">New visual themes</h3>
-        <p data-key="leak_item_3_desc">Some players hope for refreshed menus, banners, and event branding.</p>
+      <article class="article-card">
+        <div class="article-meta">Leak</div>
+        <h2>Future manager releases may expand the Link Up feature</h2>
+        <p>
+          With the arrival of new manager content, more manager-linked player combinations may appear in upcoming updates.
+        </p>
       </article>
 
-      <article class="card">
-        <h3 data-key="leak_item_4_title">Possible feature changes</h3>
-        <p data-key="leak_item_4_desc">There is always discussion about gameplay balancing and quality-of-life improvements.</p>
+      <article class="article-card">
+        <div class="article-meta">Leak</div>
+        <h2>Possible new club or national team selections</h2>
+        <p>
+          More league selections, club packs or national team themed packs may be added in future weeks depending on live form and campaign timing.
+        </p>
       </article>
+
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p data-key="footer_text">Efootball ZONE - fan-made website for news, leaks, and player ideas.</p>
+      <p data-translate="footer_text">Efootball ZONE - fan made website for eFootball news and content.</p>
+
+      <div class="footer-links">
+        <a href="about.html" data-translate="nav_about">About</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+      </div>
     </div>
   </footer>
 
