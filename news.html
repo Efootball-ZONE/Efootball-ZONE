@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3DHPNZBG6X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3DHPNZBG6X');
-</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Efootball ZONE - News</title>
@@ -17,128 +8,158 @@
 </head>
 <body data-page="news">
 
- <header class="site-header">
-  <div class="container topbar">
-    <a href="index.html" class="brand">Efootball ZONE</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
 
-    <div class="header-actions">
-      <div class="lang-switcher">
-        <button type="button" onclick="setLanguage('en')">EN</button>
-        <button type="button" onclick="setLanguage('ar')">AR</button>
-        <button type="button" onclick="setLanguage('fr')">FR</button>
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
+
+        <button class="menu-toggle" type="button" onclick="toggleMenu()">
+          Menu
+        </button>
       </div>
-
-      <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
-        Menu
-      </button>
     </div>
-  </div>
 
-  <div class="container nav-wrapper" id="mobileNav">
-    <nav class="navbar">
-      <a href="index.html" data-key="nav_home">Home</a>
-      <a href="news.html" data-key="nav_news">News</a>
-      <a href="leaks.html" data-key="nav_leaks">Leaks</a>
-      <a href="builds.html" data-key="nav_builds">Builds</a>
-      <a href="weekly-picks.html" data-key="nav_weekly_picks">Weekly Picks</a>
-      <a href="contact.html" data-key="nav_contact">Contact</a>
-      <a href="about.html" data-key="nav_about">About</a>
-    </nav>
-  </div>
-</header>
+    <div class="container nav-wrapper" id="mobileNav">
+      <nav class="navbar">
+        <a href="index.html" data-translate="nav_home">Home</a>
+        <a href="news.html" class="active-nav" data-translate="nav_news">News</a>
+        <a href="leaks.html" data-translate="nav_leaks">Leaks</a>
+        <a href="builds.html" data-translate="nav_builds">Builds</a>
+        <a href="weekly-picks.html" data-translate="nav_weekly">Weekly Picks</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+        <a href="about.html" data-translate="nav_about">About</a>
+      </nav>
+    </div>
+  </header>
 
   <main class="container page-section">
     <div class="page-header">
-      <span class="hero-badge" data-key="news_badge">Updates</span>
-      <h1 data-key="news_title">Latest News</h1>
-      <p data-key="news_desc">This page contains the latest eFootball news and updates.</p>
+      <span class="hero-badge">Updates</span>
+      <h1>Latest News</h1>
+      <p>
+        This page contains the latest eFootball news and updates.
+      </p>
     </div>
 
     <div class="article-list">
 
-      <article class="article-card featured-news" id="oldnews">
-        <img src="totw-march-11.jpg" alt="Team of the Week leak" class="news-image" />
-        <div class="featured-news-content">
-          <div class="article-meta" data-key="oldnews_date">2026/03/11</div>
-          <h2 data-key="oldnews_title">Official: New Team of the Week Players Tomorrow After the Maintenance</h2>
-          <p class="featured-short" data-key="oldnews_short">
-            Officially, Thursday's Team of the Week stars include Yildiz with a booster, Estupinan at LMF, and Gonzalez with Super-Sub.
-          </p>
-          <p class="featured-full" data-key="oldnews_full">
-            Konami has officially confirmed a new Team of the Week selection arriving tomorrow after the maintenance. The highlighted names include Yildiz with a booster, Estupinan as LMF, and Gonzalez with the Super-Sub skill. Fans are already waiting to see the full list and the final stats of the new cards.
-          </p>
-        </div>
-      </article>
-
-      <article class="article-card featured-news" id="news1">
+      <article class="article-card" id="news1">
         <img src="epic_showtimefull.jpg" alt="Epic Show Time Pack" class="news-image" />
-        <div class="featured-news-content">
-          <div class="article-meta" data-key="news1_date">2026/03/12</div>
-          <h2 data-key="news1_title">Here's the new Epic / Show Time Pack!</h2>
-          <p class="featured-short" data-key="news1_short">Breakthrough Pass B new Link Up!</p>
-          <p class="featured-full" data-key="news1_full">
-            Heinz Rummenigge with Phenomenal Finishing and Blitz Curler, Lothar Matthaus with Fortress and Phenomenal Pass, Julian Alvarez with Acceleration Burst and Low Screamer, and Enzo Fernandez with the Phenomenal Pass skill.
-          </p>
 
-          <div class="video-block">
-            <h3 data-key="video_section_title">Pack Video</h3>
-            <div class="video-frame">
-              <iframe
-                src="https://www.youtube.com/embed/drkieGcB2Ss"
-                title="Epic Show Time Pack Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-              </iframe>
-            </div>
-          </div>
+        <div class="article-meta">2026/03/12</div>
+
+        <h2>Here's the new Epic / Show Time Pack!</h2>
+
+        <p>
+          Breakthrough Pass B new Link Up!
+        </p>
+
+        <p>
+          Heinz Rummenigge with the PHENOMENAL FINISHING and BLITZ CURLER, Lothar Matthaus with the FORTRESS and PHENOMENAL PASS, Julian Alvarez with the ACCELERATION BURST and LOW SCREAMER, and Enzo Fernandez with the PHENOMENAL PASS skill.
+        </p>
+
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/drkieGcB2Ss"
+            title="Epic Show Time Pack Video"
+            allowfullscreen>
+          </iframe>
         </div>
       </article>
 
       <article class="article-card" id="news2">
         <img src="totwfull.jpg" alt="Team of the Week Pack" class="news-image" />
-        <div class="article-meta" data-key="news2_date">2026/03/12</div>
-        <h2 data-key="news2_title">Here's the full Team of the Week pack!</h2>
-        <p data-key="news2_short">This pack includes Pedri, Marmoush and Estupinan.</p>
-        <p data-key="news2_full">Here's the full list!</p>
+
+        <div class="article-meta">2026/03/12</div>
+
+        <h2>Here's the full Team of the Week pack!</h2>
+
+        <p>
+          This pack includes Pedri, Marmoush and Yildiz.
+        </p>
+
+        <p>
+          Here is the full Team of the Week selection with the new featured players and weekly standouts.
+        </p>
       </article>
 
       <article class="article-card" id="news3">
-        <img src="manager.jpg" alt="New manager" class="news-image" />
-        <div class="article-meta" data-key="news3_date">2026/03/12</div>
-        <h2 data-key="news3_title">A new Link Up manager is here!</h2>
-        <p data-key="news3_short">F. Beckenbauer 1990.</p>
-        <p data-key="news3_full">
+        <img src="manager.jpg" alt="Link Up manager" class="news-image" />
+
+        <div class="article-meta">2026/03/12</div>
+
+        <h2>A new Link Up manager is here!</h2>
+
+        <p>
+          F. Beckenbauer 1990.
+        </p>
+
+        <p>
           Franz Beckenbauer is a new manager with two styles: Long Ball Counter 89 and Long Ball 89 with the Breakthrough Pass B Link Up.
         </p>
       </article>
 
       <article class="article-card" id="news4">
         <img src="champion.jpg" alt="Championship campaign" class="news-image" />
-        <div class="article-meta" data-key="news4_date">2026/03/12</div>
-        <h2 data-key="news4_title">eFootball Championship 2026 Open Present Campaign</h2>
-        <p data-key="news4_short">Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points!</p>
-        <p data-key="news4_full">
-          Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points. Make the most out of the eFootball Point Shop by exchanging Points for players and training items. Exp. Tokens are discounted from 12/03/2026 to 26/03/2026 01:59 UTC. Exp. 100 Token: 125 → 25, Exp. 1,000 Token: 1,250 → 250, Exp. 4,000 Token: 5,000 → 1,000.
+
+        <div class="article-meta">2026/03/12</div>
+
+        <h2>eFootball Championship 2026 Open Present Campaign</h2>
+
+        <p>
+          Celebrate the eFootball Championship 2026 Open with 3,000 eFootball Points!
+        </p>
+
+        <p>
+          Make the most out of the eFootball Point Shop by exchanging points for players and training items. In conjunction with Round 1 and Round 2, Exp. Token will be available at a discount during the following period:
+        </p>
+
+        <p>
+          Availability Period: 12/03/2026 - 26/03/2026 01:59 (UTC)
+        </p>
+
+        <p>
+          Exp. 100 Token: 125 Points → 25 Points<br>
+          Exp. 1,000 Token: 1,250 Points → 250 Points<br>
+          Exp. 4,000 Token: 5,000 Points → 1,000 Points
         </p>
       </article>
 
       <article class="article-card" id="news5">
         <img src="event.jpg" alt="New event" class="news-image" />
-        <div class="article-meta" data-key="news5_date">2026/03/12</div>
-        <h2 data-key="news5_title">A new event is here!</h2>
-        <p data-key="news5_short">National Teams Campaign.</p>
-        <p data-key="news5_full">
-          A new Campaign Center feature is now in the game. The campaign runs from March 12 to April 2, 2026. Earned points can be exchanged for Blue and Red packs, each containing 3 items weekly. Dani Olmo comes with Phenomenal Pass, and Mac Allister comes with Visionary Pass.
+
+        <div class="article-meta">2026/03/12</div>
+
+        <h2>A new Event is here!</h2>
+
+        <p>
+          National Teams Campaign.
+        </p>
+
+        <p>
+          New Campaign Center feature in the game. The campaign runs from March 12 to April 2, 2026. Earned points can be exchanged for Blue and Red packs, each containing 3 items. Dani Olmo arrives with the PHENOMENAL PASS skill, and Mac Allister with VISIONARY PASS.
         </p>
       </article>
 
       <article class="article-card" id="news6">
-        <img src="monday.jpg" alt="Monday pack" class="news-image" />
-        <div class="article-meta" data-key="news6_date">2026/03/12</div>
-        <h2 data-key="news6_title">Monday pack!</h2>
-        <p data-key="news6_short">Demetrio Albertini, Michel Platini, Roberto Donadoni.</p>
-        <p data-key="news6_full">
-          Platini comes with Momentum Dribbling and Phenomenal Pass, Albertini with Phenomenal Pass, and Donadoni with Visionary Pass and Momentum Dribbling.
+        <img src="monday.jpg" alt="Monday Pack" class="news-image" />
+
+        <div class="article-meta">2026/03/12</div>
+
+        <h2>Monday Pack!</h2>
+
+        <p>
+          Demetrio Albertini, Michel Platini, Roberto Donadoni.
+        </p>
+
+        <p>
+          Platini arrives with MOMENTUM DRIBBLING and PHENOMENAL PASS, Albertini with PHENOMENAL PASS, and Donadoni with VISIONARY PASS and MOMENTUM DRIBBLING.
         </p>
       </article>
 
@@ -147,7 +168,14 @@
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p data-key="footer_text">Efootball ZONE - fan-made website for news, leaks, and player ideas.</p>
+      <p data-translate="footer_text">Efootball ZONE - fan made website for eFootball news and content.</p>
+
+      <div class="footer-links">
+        <a href="about.html" data-translate="nav_about">About</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+      </div>
     </div>
   </footer>
 
