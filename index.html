@@ -1,341 +1,180 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Efootball ZONE</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efootball ZONE</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body data-page="home">
 
-<header class="site-header">
-
-<div class="container topbar">
-
-<a href="index.html" class="brand">Efootball ZONE</a>
-
-<div class="header-actions">
-
-<div class="lang-switcher">
-
-<button onclick="setLanguage('en')">EN</button>
-<button onclick="setLanguage('ar')">AR</button>
-<button onclick="setLanguage('fr')">FR</button>
-
-</div>
-
-<button class="menu-toggle" onclick="toggleMenu()">
-☰
-</button>
-
-</div>
-
-</div>
-
-<div class="container nav-wrapper" id="mobileNav">
-
-<nav class="navbar">
-
-<a href="index.html">Home</a>
-<a href="news.html">News</a>
-<a href="leaks.html">Leaks</a>
-<a href="builds.html">Builds</a>
-<a href="weekly-picks.html">Weekly Picks</a>
-<a href="contact.html">Contact</a>
-<a href="about.html">About</a>
-
-</nav>
-
-</div>
-
-</header>
-
-
-<main class="container page-section">
-
-
-<section class="hero">
-
-<h1>Welcome to Efootball ZONE</h1>
-
-<p>
-Latest news, leaks, player builds, packs and updates about eFootball.
-</p>
-
-</section>
-
-
-
-<section class="builds-popup-banner">
-
-<a href="builds.html" class="builds-popup-link">
-
-<span class="builds-popup-dot"></span>
-
-<span>
-New builds are now available in the Builds section.
-</span>
-
-</a>
-
-</section>
-
-
-
-<section class="section">
-
-<div class="section-head">
-
-<h2>Latest Headlines</h2>
-
-<p>
-Swipe through the newest updates from Efootball ZONE.
-</p>
-
-</div>
-
-
-
-<div class="news-slider" id="newsSlider">
-
-<button class="slider-btn prev" onclick="changeSlide(-1)">‹</button>
-
-<div class="slider-track">
-
-<a href="news.html#news1" class="slide active">
-
-<img src="epic_showtimefull.jpg" class="slide-image">
-
-<div class="slide-content">
-
-<span class="news-banner-tag">New Pack</span>
-
-<h2>
-Here's the new Epic / Show Time Pack!
-</h2>
-
-<p>
-Rummenigge, Matthaus, Julian Alvarez and Enzo headline the new pack.
-</p>
-
-</div>
-
-</a>
-
-
-
-<a href="news.html#news2" class="slide">
-
-<img src="totwfull.jpg" class="slide-image">
-
-<div class="slide-content">
-
-<span class="news-banner-tag">Team Of The Week</span>
-
-<h2>
-Here's the full Team of the Week pack!
-</h2>
-
-<p>
-The pack includes Pedri, Marmoush and Yildiz.
-</p>
-
-</div>
-
-</a>
-
-
-
-<a href="news.html#news3" class="slide">
-
-<img src="manager.jpg" class="slide-image">
-
-<div class="slide-content">
-
-<span class="news-banner-tag">Manager</span>
-
-<h2>
-A new Link Up manager is here!
-</h2>
-
-<p>
-Franz Beckenbauer 1990 arrives with two styles.
-</p>
-
-</div>
-
-</a>
-
-
-
-<a href="news.html#news4" class="slide">
-
-<img src="champion.jpg" class="slide-image">
-
-<div class="slide-content">
-
-<span class="news-banner-tag">Campaign</span>
-
-<h2>
-eFootball Championship 2026 Open Campaign
-</h2>
-
-<p>
-Celebrate the championship with 3000 eFootball Points.
-</p>
-
-</div>
-
-</a>
-
-
-
-<a href="news.html#news5" class="slide">
-
-<img src="event.jpg" class="slide-image">
-
-<div class="slide-content">
-
-<span class="news-banner-tag">Event</span>
-
-<h2>
-National Teams Campaign
-</h2>
-
-<p>
-A new campaign center event is now live.
-</p>
-
-</div>
-
-</a>
-
-
-
-<a href="news.html#news6" class="slide">
-
-<img src="monday.jpg" class="slide-image">
-
-<div class="slide-content">
-
-<span class="news-banner-tag">Monday Pack</span>
-
-<h2>
-New Monday Pack
-</h2>
-
-<p>
-Albertini, Platini and Donadoni arrive.
-</p>
-
-</div>
-
-</a>
-
-</div>
-
-<button class="slider-btn next" onclick="changeSlide(1)">›</button>
-
-</div>
-
-</section>
-
-
-
-<section class="section">
-
-<div class="section-head">
-
-<h2>Main Sections</h2>
-
-<p>
-Jump quickly to the content you want.
-</p>
-
-</div>
-
-
-<div class="info-grid">
-
-<a href="news.html" class="info-box">
-
-<h3>Latest News</h3>
-
-<p>
-Stay updated with the newest eFootball information.
-</p>
-
-</a>
-
-
-
-<a href="leaks.html" class="info-box">
-
-<h3>Leaks</h3>
-
-<p>
-Find rumors and upcoming content.
-</p>
-
-</a>
-
-
-
-<a href="builds.html" class="info-box">
-
-<h3>Player Builds</h3>
-
-<p>
-Discover training ideas and player builds.
-</p>
-
-</a>
-
-
-
-<a href="contact.html" class="info-box">
-
-<h3>Contact</h3>
-
-<p>
-Reach us through email and social media.
-</p>
-
-</a>
-
-</div>
-
-</section>
-
-
-</main>
-
-
-
-<footer class="site-footer">
-
-<p>
-© 2026 Efootball ZONE
-</p>
-
-<div class="footer-links">
-
-<a href="about.html">About</a>
-<a href="privacy-policy.html">Privacy Policy</a>
-<a href="disclaimer.html">Disclaimer</a>
-<a href="contact.html">Contact</a>
-
-</div>
-
-</footer>
-
-
-<script src="script.js"></script>
-
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
+
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
+
+        <button class="menu-toggle" type="button" onclick="toggleMenu()">
+          Menu
+        </button>
+      </div>
+    </div>
+
+    <div class="container nav-wrapper" id="mobileNav">
+      <nav class="navbar">
+        <a href="index.html" class="active-nav" data-translate="nav_home">Home</a>
+        <a href="news.html" data-translate="nav_news">News</a>
+        <a href="leaks.html" data-translate="nav_leaks">Leaks</a>
+        <a href="builds.html" data-translate="nav_builds">Builds</a>
+        <a href="weekly-picks.html" data-translate="nav_weekly">Weekly Picks</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+        <a href="about.html" data-translate="nav_about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-section">
+
+    <section class="hero">
+      <h1>Welcome to Efootball ZONE</h1>
+      <p>
+        Latest news, leaks, player builds, weekly picks, and everything new in eFootball.
+      </p>
+    </section>
+
+    <section class="builds-popup-banner">
+      <a href="builds.html" class="builds-popup-link">
+        <span class="builds-popup-dot"></span>
+        <span>New builds are now available in the Builds section.</span>
+      </a>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Latest Headlines</h2>
+        <p>
+          Swipe through the newest updates from Efootball ZONE.
+        </p>
+      </div>
+
+      <div class="news-slider" id="newsSlider">
+        <button class="slider-btn prev" type="button" onclick="changeSlide(-1)">‹</button>
+
+        <div class="slider-track">
+
+          <a href="news.html#news1" class="slide active">
+            <img src="epic_showtimefull.jpg" alt="Epic Show Time Pack" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag">New Pack</span>
+              <h2>Here's the new Epic / Show Time Pack!</h2>
+              <p>Rummenigge, Matthaus, Julian Alvarez and Enzo headline the new pack.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news2" class="slide">
+            <img src="totwfull.jpg" alt="Team of the Week Pack" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag">Team of the Week</span>
+              <h2>Here's the full Team of the Week pack!</h2>
+              <p>The pack includes Pedri, Marmoush and Yildiz.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news3" class="slide">
+            <img src="manager.jpg" alt="New manager" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag">Manager</span>
+              <h2>A new Link Up manager is here!</h2>
+              <p>Franz Beckenbauer 1990 arrives with two styles and Link Up.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news4" class="slide">
+            <img src="champion.jpg" alt="Championship campaign" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag">Campaign</span>
+              <h2>eFootball Championship 2026 Open Present Campaign</h2>
+              <p>Celebrate the championship with 3,000 eFootball Points.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news5" class="slide">
+            <img src="event.jpg" alt="New event" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag">Event</span>
+              <h2>A new event is here!</h2>
+              <p>National Teams Campaign and Campaign Center arrive in the game.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news6" class="slide">
+            <img src="monday.jpg" alt="Monday pack" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag">Monday Pack</span>
+              <h2>Monday pack!</h2>
+              <p>Albertini, Platini and Donadoni arrive in the new Monday pack.</p>
+            </div>
+          </a>
+
+        </div>
+
+        <button class="slider-btn next" type="button" onclick="changeSlide(1)">›</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Main Sections</h2>
+        <p>
+          Jump quickly to the content you want.
+        </p>
+      </div>
+
+      <div class="info-grid">
+
+        <a href="news.html" class="info-box">
+          <h3>Latest News</h3>
+          <p>Stay updated with the newest eFootball information and weekly content drops.</p>
+        </a>
+
+        <a href="leaks.html" class="info-box">
+          <h3>Leaks</h3>
+          <p>Find rumors, possible upcoming content and early information about future updates.</p>
+        </a>
+
+        <a href="builds.html" class="info-box">
+          <h3>Player Builds</h3>
+          <p>Discover useful builds, training ideas and player development suggestions.</p>
+        </a>
+
+        <a href="weekly-picks.html" class="info-box">
+          <h3>Weekly Picks</h3>
+          <p>Check the best players to use this week and players currently in A condition.</p>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p data-translate="footer_text">Efootball ZONE - fan made website for eFootball news and content.</p>
+
+      <div class="footer-links">
+        <a href="about.html" data-translate="nav_about">About</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
