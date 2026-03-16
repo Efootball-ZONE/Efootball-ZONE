@@ -5,141 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Efootball ZONE - A Condition Players</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    .weekly-players-page {
-      padding-top: 10px;
-    }
-
-    .weekly-pack-title {
-      text-align: center;
-      margin: 0 0 8px;
-      font-size: clamp(1.9rem, 4vw, 2.8rem);
-    }
-
-    .weekly-pack-subtitle {
-      text-align: center;
-      color: var(--text-soft);
-      margin: 0 0 26px;
-      font-size: 1.02rem;
-    }
-
-    .players-slider-wrap {
-      position: relative;
-      margin-top: 18px;
-    }
-
-    .players-slider {
-      display: flex;
-      gap: 18px;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-      padding: 8px 6px 16px;
-      scrollbar-width: thin;
-      scrollbar-color: #3fc6ff rgba(255, 255, 255, 0.08);
-    }
-
-    .players-slider::-webkit-scrollbar {
-      height: 10px;
-    }
-
-    .players-slider::-webkit-scrollbar-track {
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: 999px;
-    }
-
-    .players-slider::-webkit-scrollbar-thumb {
-      background: linear-gradient(180deg, #49c2ff, #2db0f2);
-      border-radius: 999px;
-    }
-
-    .weekly-player-card {
-      min-width: 190px;
-      max-width: 190px;
-      background: rgba(11, 21, 34, 0.96);
-      border: 1px solid rgba(92, 130, 189, 0.18);
-      border-radius: 18px;
-      overflow: hidden;
-      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
-      transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
-      flex-shrink: 0;
-    }
-
-    .weekly-player-card:hover {
-      transform: translateY(-6px) scale(1.02);
-      border-color: rgba(73, 194, 255, 0.45);
-      box-shadow: 0 18px 34px rgba(0, 0, 0, 0.34);
-    }
-
-    .weekly-player-image-wrap {
-      position: relative;
-      background: #09111c;
-      padding: 10px 10px 0;
-    }
-
-    .weekly-player-image {
-      width: 100%;
-      height: 255px;
-      object-fit: cover;
-      display: block;
-      border-radius: 14px;
-      background: #000;
-    }
-
-    .weekly-player-info {
-      padding: 12px 12px 14px;
-      text-align: left;
-    }
-
-    .weekly-player-name {
-      margin: 0;
-      font-size: 1.04rem;
-      line-height: 1.3;
-      font-weight: 800;
-      color: #f6f8fd;
-    }
-
-    .weekly-player-role {
-      margin: 6px 0 0;
-      color: var(--text-soft);
-      font-size: 0.92rem;
-      line-height: 1.4;
-    }
-
-    .condition-badge {
-      display: inline-block;
-      margin-top: 10px;
-      background: rgba(86, 255, 141, 0.12);
-      color: #8effb0;
-      border: 1px solid rgba(86, 255, 141, 0.3);
-      padding: 6px 11px;
-      border-radius: 999px;
-      font-size: 0.84rem;
-      font-weight: 800;
-    }
-
-    @media (max-width: 768px) {
-      .weekly-player-card {
-        min-width: 165px;
-        max-width: 165px;
-      }
-
-      .weekly-player-image {
-        height: 220px;
-      }
-
-      .weekly-player-info {
-        padding: 10px 10px 12px;
-      }
-
-      .weekly-player-name {
-        font-size: 0.96rem;
-      }
-
-      .weekly-player-role {
-        font-size: 0.86rem;
-      }
-    }
-  </style>
 </head>
 <body data-page="weekly-picks">
 
@@ -154,7 +19,7 @@
           <button type="button" onclick="setLanguage('fr')">FR</button>
         </div>
 
-        <button class="menu-toggle" type="button" onclick="toggleMenu()" data-key="menu_button">
+        <button class="menu-toggle" type="button" onclick="toggleMenu()">
           Menu
         </button>
       </div>
@@ -162,26 +27,29 @@
 
     <div class="container nav-wrapper" id="mobileNav">
       <nav class="navbar">
-        <a href="index.html" data-key="nav_home">Home</a>
-        <a href="news.html" data-key="nav_news">News</a>
-        <a href="leaks.html" data-key="nav_leaks">Leaks</a>
-        <a href="builds.html" data-key="nav_builds">Builds</a>
-        <a href="weekly-picks.html" data-key="nav_weekly_picks">Weekly Picks</a>
-        <a href="contact.html" data-key="nav_contact">Contact</a>
-        <a href="about.html" data-key="nav_about">About</a>
+        <a href="index.html" data-translate="nav_home">Home</a>
+        <a href="news.html" data-translate="nav_news">News</a>
+        <a href="leaks.html" data-translate="nav_leaks">Leaks</a>
+        <a href="builds.html" data-translate="nav_builds">Builds</a>
+        <a href="weekly-picks.html" class="active-nav" data-translate="nav_weekly">Weekly Picks</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+        <a href="about.html" data-translate="nav_about">About</a>
       </nav>
     </div>
   </header>
 
   <main class="container page-section weekly-players-page">
+
     <div class="page-header">
-      <span class="hero-badge" data-key="weekly_pick_condition_badge">A Condition</span>
-      <h1 data-key="weekly_pick_condition_title">Players in A Condition This Week</h1>
-      <p data-key="weekly_pick_condition_desc">This page will show the players who are in A condition this week.</p>
+      <span class="hero-badge">A Condition</span>
+      <h1 data-translate="a_condition">Players In A Condition This Week</h1>
+      <p>
+        Updated weekly with the players currently in top form and best condition.
+      </p>
     </div>
 
     <h2 class="weekly-pack-title">A Condition Picks - This Week</h2>
-    <p class="weekly-pack-subtitle">Updated weekly with the players currently in top form.</p>
+    <p class="weekly-pack-subtitle">Players you can trust thanks to strong weekly form.</p>
 
     <div class="players-slider-wrap">
       <div class="players-slider">
@@ -202,7 +70,7 @@
             <img src="sandro.png" alt="Sandro" class="weekly-player-image" />
           </div>
           <div class="weekly-player-info">
-            <h3 class="weekly-player-name">Sandro Tonali</h3>
+            <h3 class="weekly-player-name">Sandro</h3>
             <p class="weekly-player-role">Reliable form this week</p>
             <span class="condition-badge">A Condition</span>
           </div>
@@ -213,7 +81,7 @@
             <img src="Schlotterbeck.png" alt="Schlotterbeck" class="weekly-player-image" />
           </div>
           <div class="weekly-player-info">
-            <h3 class="weekly-player-name">Nico Schlotterbeck</h3>
+            <h3 class="weekly-player-name">Schlotterbeck</h3>
             <p class="weekly-player-role">Defensive option in good form</p>
             <span class="condition-badge">A Condition</span>
           </div>
@@ -301,7 +169,7 @@
             <img src="diaz.png" alt="Diaz" class="weekly-player-image" />
           </div>
           <div class="weekly-player-info">
-            <h3 class="weekly-player-name">Luis Díaz</h3>
+            <h3 class="weekly-player-name">Díaz</h3>
             <p class="weekly-player-role">Fast wing threat this week</p>
             <span class="condition-badge">A Condition</span>
           </div>
@@ -312,7 +180,7 @@
             <img src="enzoo.png" alt="Enzo" class="weekly-player-image" />
           </div>
           <div class="weekly-player-info">
-            <h3 class="weekly-player-name">Enzo Fernandes</h3>
+            <h3 class="weekly-player-name">Enzo</h3>
             <p class="weekly-player-role">Strong midfield support</p>
             <span class="condition-badge">A Condition</span>
           </div>
@@ -323,7 +191,7 @@
             <img src="eric.png" alt="Eric" class="weekly-player-image" />
           </div>
           <div class="weekly-player-info">
-            <h3 class="weekly-player-name">Eric Garcia</h3>
+            <h3 class="weekly-player-name">Eric</h3>
             <p class="weekly-player-role">Good option with stable form</p>
             <span class="condition-badge">A Condition</span>
           </div>
@@ -411,7 +279,7 @@
             <img src="kenan.png" alt="Kenan" class="weekly-player-image" />
           </div>
           <div class="weekly-player-info">
-            <h3 class="weekly-player-name">Kenan Yildiz</h3>
+            <h3 class="weekly-player-name">Kenan</h3>
             <p class="weekly-player-role">Young attacking option</p>
             <span class="condition-badge">A Condition</span>
           </div>
@@ -529,16 +397,20 @@
 
       </div>
     </div>
+
   </main>
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p data-key="footer_text">Efootball ZONE - fan-made website for news, leaks, and player ideas.</p>
+      <p data-translate="footer_text">
+        Efootball ZONE - fan made website for eFootball news and content.
+      </p>
+
       <div class="footer-links">
-        <a href="about.html" data-key="nav_about">About</a>
-        <a href="privacy-policy.html" data-key="footer_privacy">Privacy Policy</a>
-        <a href="disclaimer.html" data-key="footer_disclaimer">Disclaimer</a>
-        <a href="contact.html" data-key="nav_contact">Contact</a>
+        <a href="about.html">About</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html">Contact</a>
       </div>
     </div>
   </footer>
