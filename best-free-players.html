@@ -1,158 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Best Free Players This Week</title>
-
-<link rel="stylesheet" href="style.css">
-
-<style>
-
-.players-slider{
-display:flex;
-gap:20px;
-overflow-x:auto;
-padding:20px 10px;
-scroll-behavior:smooth;
-}
-
-.players-slider::-webkit-scrollbar{
-height:8px;
-}
-
-.players-slider::-webkit-scrollbar-thumb{
-background:#00c3ff;
-border-radius:10px;
-}
-
-.player-card{
-
-min-width:180px;
-background:#0b1522;
-border-radius:14px;
-padding:10px;
-text-align:center;
-transition:0.25s;
-cursor:pointer;
-
-}
-
-.player-card:hover{
-
-transform:translateY(-6px) scale(1.03);
-box-shadow:0 10px 25px rgba(0,0,0,0.4);
-
-}
-
-.player-card img{
-
-width:100%;
-border-radius:10px;
-
-}
-
-.player-name{
-
-margin-top:8px;
-font-size:16px;
-font-weight:600;
-
-}
-
-.page-title{
-
-text-align:center;
-margin-top:40px;
-font-size:34px;
-
-}
-
-.week-title{
-
-text-align:center;
-opacity:0.7;
-margin-bottom:20px;
-
-}
-
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efootball ZONE - Best Free Players</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body data-page="weekly-picks">
 
-<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="brand">Efootball ZONE</a>
 
-<header class="site-header">
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button type="button" onclick="setLanguage('en')">EN</button>
+          <button type="button" onclick="setLanguage('ar')">AR</button>
+          <button type="button" onclick="setLanguage('fr')">FR</button>
+        </div>
 
-<div class="container topbar">
+        <button class="menu-toggle" type="button" onclick="toggleMenu()">
+          Menu
+        </button>
+      </div>
+    </div>
 
-<a href="index.html" class="brand">Efootball ZONE</a>
+    <div class="container nav-wrapper" id="mobileNav">
+      <nav class="navbar">
+        <a href="index.html" data-translate="nav_home">Home</a>
+        <a href="news.html" data-translate="nav_news">News</a>
+        <a href="leaks.html" data-translate="nav_leaks">Leaks</a>
+        <a href="builds.html" data-translate="nav_builds">Builds</a>
+        <a href="weekly-picks.html" class="active-nav" data-translate="nav_weekly">Weekly Picks</a>
+        <a href="contact.html" data-translate="nav_contact">Contact</a>
+        <a href="about.html" data-translate="nav_about">About</a>
+      </nav>
+    </div>
+  </header>
 
-<nav class="navbar">
+  <main class="container page-section weekly-players-page">
 
-<a href="index.html">Home</a>
-<a href="news.html">News</a>
-<a href="leaks.html">Leaks</a>
-<a href="builds.html">Builds</a>
-<a href="weekly-picks.html">Weekly Picks</a>
-<a href="contact.html">Contact</a>
-<a href="about.html">About</a>
+    <div class="page-header">
+      <span class="hero-badge">Free Picks</span>
+      <h1 data-translate="best_players">Best Free Players To Use This Week</h1>
+      <p>
+        Updated weekly with the best free players you can use in matches and events.
+      </p>
+    </div>
 
-</nav>
+    <h2 class="weekly-pack-title">Best Players To Use This Week</h2>
+    <p class="weekly-pack-subtitle">Updated weekly with the strongest free options.</p>
 
-</div>
+    <div class="players-slider-wrap">
+      <div class="players-slider">
 
-</header>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="yildiz.webp" alt="Kenan Yildiz" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Kenan Yildiz</h3>
+            <p class="weekly-player-role">Creative forward option</p>
+          </div>
+        </article>
 
-<h1 class="page-title">Best Free Players</h1>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="fede.webp" alt="Federico Valverde" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Federico Valverde</h3>
+            <p class="weekly-player-role">Complete box-to-box midfielder</p>
+          </div>
+        </article>
 
-<p class="week-title">Players to use this week</p>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="lamine.webp" alt="Lamine Yamal" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Lamine Yamal</h3>
+            <p class="weekly-player-role">Fast and dangerous winger</p>
+          </div>
+        </article>
 
-<div class="players-slider">
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="mac.png" alt="Mac Allister" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Mac Allister</h3>
+            <p class="weekly-player-role">Strong passing midfield pick</p>
+          </div>
+        </article>
 
-<div class="player-card">
-<img src="yildiz.webp">
-<div class="player-name">Kenan Yildiz</div>
-</div>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="nico.webp" alt="Nico Williams" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Nico Williams</h3>
+            <p class="weekly-player-role">Explosive wide attacker</p>
+          </div>
+        </article>
 
-<div class="player-card">
-<img src="fede.webp">
-<div class="player-name">Federico Valverde</div>
-</div>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="olmo.webp" alt="Dani Olmo" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Dani Olmo</h3>
+            <p class="weekly-player-role">Technical attacking midfielder</p>
+          </div>
+        </article>
 
-<div class="player-card">
-<img src="lamine.webp">
-<div class="player-name">Lamine Yamal</div>
-</div>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="omar.webp" alt="Omar Marmoush" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Omar Marmoush</h3>
+            <p class="weekly-player-role">Direct and fast attacker</p>
+          </div>
+        </article>
 
-<div class="player-card">
-<img src="mac.png">
-<div class="player-name">Mac Allister</div>
-</div>
+        <article class="weekly-player-card">
+          <div class="weekly-player-image-wrap">
+            <img src="pedri.webp" alt="Pedri" class="weekly-player-image" />
+          </div>
+          <div class="weekly-player-info">
+            <h3 class="weekly-player-name">Pedri</h3>
+            <p class="weekly-player-role">Elite control and possession</p>
+          </div>
+        </article>
 
-<div class="player-card">
-<img src="nico.webp">
-<div class="player-name">Nico Schlotterbeck</div>
-</div>
+      </div>
+    </div>
 
-<div class="player-card">
-<img src="olmo.webp">
-<div class="player-name">Dani Olmo</div>
-</div>
+  </main>
 
-<div class="player-card">
-<img src="omar.webp">
-<div class="player-name">Omar Marmoush</div>
-</div>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p data-translate="footer_text">
+        Efootball ZONE - fan made website for eFootball news and content.
+      </p>
 
-<div class="player-card">
-<img src="pedri.webp">
-<div class="player-name">Pedri</div>
-</div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
 
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
