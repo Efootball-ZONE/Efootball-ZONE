@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Efootball ZONE - Leaks</title>
+  <title>Efootball ZONE</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="leaks">
+<body data-page="home">
 
   <header class="site-header">
     <div class="container topbar">
@@ -27,11 +27,12 @@
 
     <div class="container nav-wrapper" id="mobileNav">
       <nav class="navbar">
-        <a href="index.html" data-translate="nav_home">Home</a>
+        <a href="index.html" class="active-nav" data-translate="nav_home">Home</a>
         <a href="news.html" data-translate="nav_news">News</a>
-        <a href="leaks.html" class="active-nav" data-translate="nav_leaks">Leaks</a>
+        <a href="leaks.html" data-translate="nav_leaks">Leaks</a>
         <a href="builds.html" data-translate="nav_builds">Builds</a>
         <a href="weekly-picks.html" data-translate="nav_weekly">Weekly Picks</a>
+        <a href="new-players.html">New Players</a>
         <a href="contact.html" data-translate="nav_contact">Contact</a>
         <a href="about.html" data-translate="nav_about">About</a>
       </nav>
@@ -39,68 +40,259 @@
   </header>
 
   <main class="container page-section">
-    <div class="page-header">
-      <span class="hero-badge">Leaks</span>
-      <h1>Latest Leaks</h1>
-      <p>
-        This page contains leaks, early information and possible upcoming eFootball content.
+
+    <section class="hero">
+      <h1 data-translate="home_title">Welcome to Efootball ZONE</h1>
+      <p data-translate="home_desc">
+        Latest news, leaks, player builds, weekly picks, and everything new in eFootball.
       </p>
-    </div>
+    </section>
 
-    <div class="article-list">
+    <section class="builds-popup-banner">
+      <a href="builds.html" class="builds-popup-link">
+        <span class="builds-popup-dot"></span>
+        <span data-translate="home_builds_alert">New builds are now available in the Builds section.</span>
+      </a>
+    </section>
 
-      <article class="article-card" id="leak1">
-        <div class="article-meta">Major Leak</div>
-
-        <h2>Thierry Henry, Eusébio and Garrincha have been found in the game files</h2>
-
-        <p>
-          A new major leak suggests that three legendary players may arrive soon in eFootball:
-          <strong>Thierry Henry</strong>, <strong>Eusébio</strong> and <strong>Garrincha</strong>.
+    <section class="section">
+      <div class="section-head">
+        <h2 data-translate="latest_headlines_title">Latest Headlines</h2>
+        <p data-translate="latest_headlines_desc">
+          Swipe through the newest updates from Efootball ZONE.
         </p>
+      </div>
 
-        <p>
-          These three players were reportedly found inside the game files, which usually means
-          they are being prepared for a future release. There is still no official date from Konami,
-          but this type of discovery often appears before a new pack or special campaign is announced.
+      <div class="news-slider" id="newsSlider">
+        <button class="slider-btn prev" type="button" onclick="changeSlide(-1)">‹</button>
+
+        <div class="slider-track">
+
+          <a href="news.html#news1" class="slide active">
+            <img src="epic_showtimefull.jpg" alt="Epic Show Time Pack" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag" data-translate="slide1_tag">New Pack</span>
+              <h2 data-translate="slide1_title">Here's the new Epic / Show Time Pack!</h2>
+              <p data-translate="slide1_desc">Rummenigge, Matthaus, Julian Alvarez and Enzo headline the new pack.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news2" class="slide">
+            <img src="totwfull.jpg" alt="Team of the Week Pack" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag" data-translate="slide2_tag">Team of the Week</span>
+              <h2 data-translate="slide2_title">Here's the full Team of the Week pack!</h2>
+              <p data-translate="slide2_desc">The pack includes Pedri, Marmoush and Yildiz.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news3" class="slide">
+            <img src="manager.jpg" alt="New manager" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag" data-translate="slide3_tag">Manager</span>
+              <h2 data-translate="slide3_title">A new Link Up manager is here!</h2>
+              <p data-translate="slide3_desc">Franz Beckenbauer 1990 arrives with two styles and Link Up.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news4" class="slide">
+            <img src="champion.jpg" alt="Championship campaign" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag" data-translate="slide4_tag">Campaign</span>
+              <h2 data-translate="slide4_title">eFootball Championship 2026 Open Present Campaign</h2>
+              <p data-translate="slide4_desc">Celebrate the championship with 3,000 eFootball Points.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news5" class="slide">
+            <img src="event.jpg" alt="New event" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag" data-translate="slide5_tag">Event</span>
+              <h2 data-translate="slide5_title">A new event is here!</h2>
+              <p data-translate="slide5_desc">National Teams Campaign and Campaign Center arrive in the game.</p>
+            </div>
+          </a>
+
+          <a href="news.html#news6" class="slide">
+            <img src="monday.jpg" alt="Monday pack" class="slide-image" />
+            <div class="slide-content">
+              <span class="news-banner-tag" data-translate="slide6_tag">Monday Pack</span>
+              <h2 data-translate="slide6_title">Monday pack!</h2>
+              <p data-translate="slide6_desc">Albertini, Platini and Donadoni arrive in the new Monday pack.</p>
+            </div>
+          </a>
+
+        </div>
+
+        <button class="slider-btn next" type="button" onclick="changeSlide(1)">›</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2 data-translate="main_sections_title">Main Sections</h2>
+        <p data-translate="main_sections_desc">
+          Jump quickly to the content you want.
         </p>
+      </div>
 
-        <p>
-          For now, this remains a leak and not official confirmation. Still, it is one of the strongest
-          recent signs that these legendary cards could arrive in an upcoming update.
-        </p>
+      <div class="info-grid">
 
-        <img src="henry-leak.jpg" alt="Thierry Henry leak" class="news-image" />
-        <img src="eusebio-leak.jpg" alt="Eusebio leak" class="news-image" />
-        <img src="garrincha-leak.jpg" alt="Garrincha leak" class="news-image" />
-      </article>
+        <a href="news.html" class="info-box">
+          <h3 data-translate="home_box_news_title">Latest News</h3>
+          <p data-translate="home_box_news_desc">Stay updated with the newest eFootball information and weekly content drops.</p>
+        </a>
 
-      <article class="article-card">
-        <div class="article-meta">Leak</div>
-        <h2>Future manager-linked player releases may continue</h2>
-        <p>
-          With the new manager system that can include two linked players, more manager packs may
-          arrive in the coming weeks depending on the next live update cycle.
-        </p>
-      </article>
+        <a href="leaks.html" class="info-box">
+          <h3 data-translate="home_box_leaks_title">Leaks</h3>
+          <p data-translate="home_box_leaks_desc">Find rumors, possible upcoming content and early information about future updates.</p>
+        </a>
 
-      <article class="article-card">
-        <div class="article-meta">Leak</div>
-        <h2>More special event players could be added soon</h2>
-        <p>
-          Weekly campaigns, free event cards and themed club selections may continue to expand as
-          new content is added to the game.
-        </p>
-      </article>
+        <a href="builds.html" class="info-box">
+          <h3 data-translate="home_box_builds_title">Player Builds</h3>
+          <p data-translate="home_box_builds_desc">Discover useful builds, training ideas and player development suggestions.</p>
+        </a>
 
-    </div>
+        <a href="weekly-picks.html" class="info-box">
+          <h3 data-translate="home_box_weekly_title">Weekly Picks</h3>
+          <p data-translate="home_box_weekly_desc">Check the best players to use this week and players currently in A condition.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Weekly Picks Preview</h2>
+        <p>Quick access to this week's best free players and A condition picks.</p>
+      </div>
+
+      <div class="weekly-picks-grid">
+
+        <a href="best-free-players.html" class="weekly-pick-card">
+          <div class="weekly-pick-box">
+            <img src="msn.jpg" alt="Best Free Players" class="weekly-pick-image" />
+            <div class="weekly-overlay"></div>
+          </div>
+          <h2 data-translate="best_players">Best Free Players To Use This Week</h2>
+        </a>
+
+        <a href="a-condition-players.html" class="weekly-pick-card">
+          <div class="weekly-pick-box">
+            <img src="messi.jpg" alt="A Condition Players" class="weekly-pick-image" />
+            <div class="weekly-overlay"></div>
+          </div>
+          <h2 data-translate="a_condition">Players In A Condition This Week</h2>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>New Players This Week</h2>
+        <p>Browse newly added players from packs, events and manager-linked content.</p>
+      </div>
+
+      <div class="players-slider-wrap">
+        <div class="players-slider">
+
+          <article class="weekly-player-card">
+            <div class="weekly-player-image-wrap">
+              <img src="rummenigge_card.jpg" alt="Rummenigge" class="weekly-player-image" />
+            </div>
+            <div class="weekly-player-info">
+              <h3 class="weekly-player-name">Rummenigge</h3>
+              <p class="weekly-player-role">Breakthrough Pass B</p>
+            </div>
+          </article>
+
+          <article class="weekly-player-card">
+            <div class="weekly-player-image-wrap">
+              <img src="matthaus_card.jpg" alt="Matthaus" class="weekly-player-image" />
+            </div>
+            <div class="weekly-player-info">
+              <h3 class="weekly-player-name">Matthaus</h3>
+              <p class="weekly-player-role">Breakthrough Pass B</p>
+            </div>
+          </article>
+
+          <article class="weekly-player-card">
+            <div class="weekly-player-image-wrap">
+              <img src="enzo_card.jpg" alt="Enzo Fernandez" class="weekly-player-image" />
+            </div>
+            <div class="weekly-player-info">
+              <h3 class="weekly-player-name">Enzo Fernandez</h3>
+              <p class="weekly-player-role">Breakthrough Pass B</p>
+            </div>
+          </article>
+
+          <article class="weekly-player-card">
+            <div class="weekly-player-image-wrap">
+              <img src="alvarez_card.jpg" alt="Julian Alvarez" class="weekly-player-image" />
+            </div>
+            <div class="weekly-player-info">
+              <h3 class="weekly-player-name">Julian Alvarez</h3>
+              <p class="weekly-player-role">Breakthrough Pass B</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:18px;">
+        <a href="new-players.html" class="back-to-builds">Open New Players Page</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Latest Builds Preview</h2>
+        <p>Explore some of the newest player builds added to the site.</p>
+      </div>
+
+      <div class="builds-grid">
+
+        <a href="build-rummenigge.html" class="build-card-simple">
+          <div class="build-card-text">
+            <h2>Heinz Rummenigge</h2>
+            <p>Epic / Show Time build</p>
+          </div>
+          <img src="rummenigge_card.jpg" class="build-card-image" alt="Rummenigge build card" />
+        </a>
+
+        <a href="build-matthaus.html" class="build-card-simple">
+          <div class="build-card-text">
+            <h2>Lothar Matthaus</h2>
+            <p>Fortress midfielder build</p>
+          </div>
+          <img src="matthaus_card.jpg" class="build-card-image" alt="Matthaus build card" />
+        </a>
+
+        <a href="build-enzo-fernandez.html" class="build-card-simple">
+          <div class="build-card-text">
+            <h2>Enzo Fernandez</h2>
+            <p>Phenomenal Pass build</p>
+          </div>
+          <img src="enzo_card.jpg" class="build-card-image" alt="Enzo build card" />
+        </a>
+
+        <a href="build-julian-alvarez.html" class="build-card-simple">
+          <div class="build-card-text">
+            <h2>Julian Alvarez</h2>
+            <p>Acceleration Burst striker build</p>
+          </div>
+          <img src="alvarez_card.jpg" class="build-card-image" alt="Alvarez build card" />
+        </a>
+
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p data-translate="footer_text">
-        Efootball ZONE - fan made website for eFootball news and content.
-      </p>
+      <p data-translate="footer_text">Efootball ZONE - fan made website for eFootball news and content.</p>
 
       <div class="footer-links">
         <a href="about.html">About</a>
